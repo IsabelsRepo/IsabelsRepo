@@ -1,0 +1,1503 @@
+,618,632,622,635,637,641,646,647,979,980,981,986,683,684,992,686,687,996,997,693,694,1004,695,696,1009,1008,699,1012,700,702,703,1016,705,707,708,1027,1029,714,715,716,717,719,720,1036,1037,1039,1041,1043,1047,723,725,728,732,733,734,735,737,741,745,746,1055,1056,1057,1060,752,756,759,1067,762,766,1072,1073,770,1075,776,785,1079,1080,1083,1085,795,1091,800,1096,1097,812,1099,1100,1106,1109,1110,1112,1113,1114,1117,1118,1119,1120,1125,1128,1140,1142,1143,1145,1147,1149,1151,1160,1170,1175,817,1183,1188,1189,1190,1192,826,832,839,840,1200,843,845,847,1205,645,842,676,677,679,680,682,784,749,3132,619,620,621,626,627,628,630,631,625,633,634,638,639,640,643,644,648,649,650,982,983,985,987,989,988,990,991,993,994,995,688,689,998,999,691,1000,1001,692,1002,1003,1005,1006,1007,697,1010,698,1011,1013,1014,701,1015,704,1017,1018,706,1019,1020,984,1028,718,721,1030,1031,1032,1033,1034,1035,1038,1040,1042,1044,1046,722,724,726,727,729,730,731,736,1048,1049,739,740,1050,743,744,742,747,748,750,1052,1053,1054,1059,1061,1062,1063,753,1064,754,1065,755,757,758,1066,760,761,763,1068,764,1069,1070,1071,767,768,769,1074,772,773,774,775,777,778,779,781,1077,1078,786,1081,787,1082,788,1084,1086,1087,791,1088,792,1089,793,1090,794,1092,796,797,1093,798,799,801,802,803,1094,1095,805,806,1098,808,809,810,811,813,814,815,1101,1102,1103,1104,1105,1107,1108,1111,1115,1116,1121,1122,1123,1124,1126,1127,1129,1130,1132,1133,1134,1135,1136,1137,1138,1139,1141,1144,1146,1148,1150,1152,1153,1154,1155,1156,1157,1158,1159,1161,1162,1163,1165,1166,1167,1168,1169,1171,1172,1173,1174,1176,1177,1178,1179,1180,818,819,1181,1182,1184,1185,1186,1191,820,821,822,823,824,1193,825,827,828,829,830,831,833,834,835,1194,836,1195,1196,1197,838,1198,1199,841,844,846,1202,1204,3121,3127,3131,678,1058,1131,283,284,681,790,804,807,3047,3095,3096,3097,3098,3099,3272,690,1045,751,765,771,780,783,816,1164,1187,837,1201,848,849,3271,3308,1051,3065,3120,3126,3128,1203,3100,3101,3102,3104,3105,3106,3109,3114,3115,3116,3117,3118,3119,3122,3123,3129,3130,3270,642,3070,3103,3108,3110,3111,3113,3124,3142,3143,3269,850,3125,39,1993,3216,3014,1252,66,2026,2084,3300,287,288,289,290,3148
+Case number,618,632,622,635,637,641,646,647,979,980,981,986,683,684,992,686,687,996,997,693,694,1004,695,696,1009,1008,699,1012,700,702,703,1016,705,707,708,1027,1029,714,715,716,717,719,720,1036,1037,1039,1041,1043,1047,723,725,728,732,733,734,735,737,741,745,746,1055,1056,1057,1060,752,756,759,1067,762,766,1072,1073,770,1075,776,785,1079,1080,1083,1085,795,1091,800,1096,1097,812,1099,1100,1106,1109,1110,1112,1113,1114,1117,1118,1119,1120,1125,1128,1140,1142,1143,1145,1147,1149,1151,1160,1170,1175,817,1183,1188,1189,1190,1192,826,832,839,840,1200,843,845,847,1205,645,842,676,677,679,680,682,784,749,3132,619,620,621,626,627,628,630,631,625,633,634,638,639,640,643,644,648,649,650,982,983,985,987,989,988,990,991,993,994,995,688,689,998,999,691,1000,1001,692,1002,1003,1005,1006,1007,697,1010,698,1011,1013,1014,701,1015,704,1017,1018,706,1019,1020,984,1028,718,721,1030,1031,1032,1033,1034,1035,1038,1040,1042,1044,1046,722,724,726,727,729,730,731,736,1048,1049,739,740,1050,743,744,742,747,748,750,1052,1053,1054,1059,1061,1062,1063,753,1064,754,1065,755,757,758,1066,760,761,763,1068,764,1069,1070,1071,767,768,769,1074,772,773,774,775,777,778,779,781,1077,1078,786,1081,787,1082,788,1084,1086,1087,791,1088,792,1089,793,1090,794,1092,796,797,1093,798,799,801,802,803,1094,1095,805,806,1098,808,809,810,811,813,814,815,1101,1102,1103,1104,1105,1107,1108,1111,1115,1116,1121,1122,1123,1124,1126,1127,1129,1130,1132,1133,1134,1135,1136,1137,1138,1139,1141,1144,1146,1148,1150,1152,1153,1154,1155,1156,1157,1158,1159,1161,1162,1163,1165,1166,1167,1168,1169,1171,1172,1173,1174,1176,1177,1178,1179,1180,818,819,1181,1182,1184,1185,1186,1191,820,821,822,823,824,1193,825,827,828,829,830,831,833,834,835,1194,836,1195,1196,1197,838,1198,1199,841,844,846,1202,1204,3121,3127,3131,678,1058,1131,283,284,681,790,804,807,3047,3095,3096,3097,3098,3099,3272,690,1045,751,765,771,780,783,816,1164,1187,837,1201,848,849,3271,3308,1051,3065,3120,3126,3128,1203,3100,3101,3102,3104,3105,3106,3109,3114,3115,3116,3117,3118,3119,3122,3123,3129,3130,3270,642,3070,3103,3108,3110,3111,3113,3124,3142,3143,3269,850,3125,39,1993,3216,3014,1252,66,2026,2084,3300,287,288,289,290,3148
+Incident location," 3540 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5438 Madison RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 201 Peete StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 23 Back StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1891 Biegler StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 802 Oak StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 741 Kings Run DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 863 Lincoln AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 59 Caldwell DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1668 Iliff StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1915 Central AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 298 Delta AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1725 Republic St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 311 Pike St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 15 Craft AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1358 Hopple St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1231 Vine St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7247 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3721 Cass AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 410 W. McMillanCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1632 HughesCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 118 Green StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2100 Ravine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1219 Foraker St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 874 Rockdale AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 758 RidgewayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 399 W. GalbraithCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1301 Linn StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4851 Gray Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1796 DrehmanCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 20 East Liberty St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3571 Irving Place Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1425 Race St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3142 Reading Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2440 Larona AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 686 Gholson AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2035 Elm StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 27 E. 9th St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3509 Reading Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2164 SintonCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1715 FrintzCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5370 ShelbourneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5464 Bahama TerraceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5150 Colerain AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3400 Montgomery RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5900 Hamilton AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 334 Helen StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1710 Elmore StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1045 BaymillerCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 913 Sycamore St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 105 W. 9th St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 243 EarnshawCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of I-75 and 562Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2911 Woodburn Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 619 Main St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1119 Walnut St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1409 Walnut St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2313 Kemper LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 219 Peete St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1125 Sycamore StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2401 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 215 Jail AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6 Craft StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of Rapid Run parkCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1637 HughesCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3585 AntwerpCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2165 Linn StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 917 Dana Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1112 Marshall Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1455 Hafer AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3235 Bowling GreenCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1408 Linn St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3587 Haven AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5100 Old Kellogg Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1503 Ruth Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1686 Blue Rock RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1400 Race Street Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2626 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 521 Forest Avenue Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3361 Reading Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1234 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 740 Morgan St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1436 ApjonesCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1509 YarmouthCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6538 S. Oak Knoll Dr.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1630 Linden AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 128 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2 Topridge PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 18 Thill StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 864 Dutch ColonyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1122 Elm Street #6Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1527 Race StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 535 East 13th StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 512 East 12th StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1800 Minion AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1 West 13th StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5609 Tompkins AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1663 Summit Road #1Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1415 Hafer AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1599 Central ParkwayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4530 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 951 Blair CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1811 Elm StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3501 Burnet AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2572 Sarvis CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 406 LudlowCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3636 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2023 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1344 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 910 Race St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 836 Clark StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2000 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 617 Union StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2059 West CliftonCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4240 Hamilton AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2395 Symmes St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 841 Wehrman at FredoniaCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1901 Baymiller St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1974 Sutter Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2006 Alvin StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1041 Cutter St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 818 Wells Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1902 Vine St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1342 Walnut Street #6Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2610 Park AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1441 PullanCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 922 Marion Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4916 Mathis StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5726 Montgomery RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1285 Rutledge AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Westbound State Route 562 at 0 mile markerCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 624 Rockdale AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4182 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2801 Colerain AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1601 John StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1715 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 213 Eton PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 530 Poplar StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 247 Gilman AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2638 Ocosta AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7006 Glenmeadow LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3410 Cleveland CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5208 Ebersole AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 694 Gholson AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3273 Gilbert AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5542 Colerain AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2201 Harrison AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3140 Gloss AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1304 California Avenue Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1826 Hewitt AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 727 Lindsey AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3250 Rammelsberg StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3250 Rammelsberg StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1511 Gilpin AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1511 Gilpin AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1721 Dana AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5808 Peabody StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2026 Millvale CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1192 Beverly HillsCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1192 Beverly HillsCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 39 Topridge PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 708 Glenwood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3737 Isabella Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 615 Maple AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2296 Baltimore AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1300 East LibertyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 525 Rockdale AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2013 Highland AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3712 York LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4146 Gordon StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2639 Cora AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3712 Borden St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1313 Walnut StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 828 Wehrman St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3669 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 752 Chestnut StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1717 Vine Street Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 216 East Liberty St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 46 Burton Avenue #13Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2920 Ashland AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 800 W. 8th StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2461 Westwood Northern AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 418 Race St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5643 Montgomery RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6730 Dante AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5275 Winneste AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3163 Moosewood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 255 FosdickCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 8 West EdlerCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5488 Bahama TerraceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1836 Republic StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1637 Westwood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 8101 Anthony Wayne AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2500 Highland AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3625 Irving StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 643 ManitouCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3220 Moosewood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2604 Eden AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1631 Sparkle DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3418 Reading Road #329Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2200 Victory ParkwayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 475 Purcell AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 330 W. 4th St. #15ACincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1525 Pleasant St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3517 Reading Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3517 Reading Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 507 Lowell Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 11 E. 8th St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 218 Peete StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1307 Yukon #1Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1034 MoundCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 10 West St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3305 Woodburn AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1329 Clay St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1215 SunsetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 28 Craft St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1704 Columbia ParkwayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3419 Pleasant ViewCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of 746 Glenwood Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1330 California AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2026 Seymour AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 717 RidgewayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3598 Washington StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2363 Millvale CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2809 Maryland AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2712 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4040 Hamilton Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3584 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2800 Victoria ParkwayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2409 SunnyhillCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1 E. Court St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 27 Craft St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 27 Craft St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1923 Colby AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4546 Spring Grove Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4546 Spring Grove Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1537 Republic St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1750 Gilbert AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5116 Hawaiian TerraceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2063 Eastern AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2924 Gilbert AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2829 Park AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1020 Baldwin AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 900 Groesbeck Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5207 Beechmont Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2955 West McMicken Avenue Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1439 Elm St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1308 Vine St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 202 E. 6th St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4930 Paddock Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2127 Gilbert Ave. Apt. 61Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 103 E. Clifton Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 412 Wade St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2224 Westwood Northern Blvd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2350 Henrianne CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1101 Bank StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2329 May St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5930 Hamilton AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2812 Stanton AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of 1600 block of Walnut St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7733 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1430 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1308 Race StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 833 Bank St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2564 Kipling Avenue #2Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 945 Dana Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 882 Buena VistaCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5318 Ebersole Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 268 W. McMickenCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 234 Playfield Rd. (Lunken Airport)Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2956 Highforest LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1706 Frintz St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3760 Brotheton Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1150 Sycamore StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1309 William Howard Taft Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3755 Westmont Dr.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3204 Wold Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 423 Whiteman St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3455 Jay St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 930 E. Martin Luther King DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4814 Yarmouth AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 20 E. 12th St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1122 Garden St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3473 Harvey AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2020 H Sutter Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 551 Derrick Turnbow WayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3 W. Liberty St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5434 Varsity CircleCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3505 1/2 Burnet Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3078 Moosewood CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 255 McGregor Ave. #11Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 100 E. McMicken AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4926 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 845 Ezzard Charles DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 125 West Liberty StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1274 Elsinore PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3424 Cardiff AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2960 Highforest LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3220 Moosewood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 872 Buena Vista PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 515 East 13th Street #3Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 351 East Third StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 127 East Clifton AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 264 Stark StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1651 Hammer StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3570 Montgomery RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1403 CarolinaCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3603 McHenry AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2286 Millvale CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1624 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1900 Seymour AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2100 Montana AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2026 Baltimore StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 416 Livingston StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 603 West Pete Rose WayCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 8380 Anthony WayneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1726 Linn StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 517 Livingston StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1811 Elm StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3257 Bowling Green CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 134 Glenridge PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1956 Kentucky AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1987 Sutter AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1720 Frintz StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1651 Central AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1406 Locust #4Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5851 Winton RidgeCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 260 West McMicken StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2019 Central AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5850 Center Hill DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 8 East McMicken StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 913 Lincoln AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3265 Brotherton RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2460 Boudinot #2Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1865 Glendon PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6010 Montgomery RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 8334 Anthony Wayne StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1211 Jackson StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 525 East Liberty StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 300 E. McMillan StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3792 Westmont Avenue #204Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6 Hust AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2824 Westknolls LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3033 Marshall AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5618 Glenview AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3352 Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 142 East McMickenCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4690 Ashtree Dr.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 835 Poplar St. #1012Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1278 Quebec RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1278 Quebec RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4961 Oakdale AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2480 White StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5954 Rhode IslandCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3401 McHenry #6Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1901 River Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 133 Glenridge Place Apt. DCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3338 Glenway Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 47 W McMicken St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1838 Dana Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1508 West North BendCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 563 W Liberty St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 806 Blair Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1100 Vienna Woods Dr.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 686 Gholson Ave. #9Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1331 Vine St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 37 Glencoe Place Apt. BCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 500 Straight St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3060 Durrell (Hoffman schoolyard)Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1329 William Howard Taft #13Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 420 Charlotte StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2809 Woodburn Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 65 East McMickenCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1203 Bates AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1621 Asmann Avenue #17Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3320 Millcreek Rd.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1417 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1630 Crest Hill AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3617 Fyffee St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 128 W Elder St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1427 Monoque AlleyCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 226 McCormick PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 659 Glenwood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1191 W. Galbraith RdCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 500 block of Oliver StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2500 block of Highland AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4259 Fergus StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 400 block of Charlotte StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 515 Lowell AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 515 Lowell AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3412 Harvey Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of I-71 and Blair overpassCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 616 Glenwood Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2643 Stanton Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1600 block of Race Street in Over-the RhineCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Gilman Avenue in Mt. AuburnCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 500 block of Hickory Street in AvondaleCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7000 block of Glenmeadow LaneCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Club Ritz on Seymour Avenue in RoselawnCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1319 Regent Avenue in Bond HillCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2707 Erlene DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1192 Beverly HillsCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3418 Reading Road #329Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 311 Straight St.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1000 Eastern Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5490 Beechmont Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of 1100 Gilbert Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Area of I-75 and Mitchell Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1949 Losantiville Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2924 Gilbert AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1318 Republic StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3068 Gilbert Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1716 Frintz StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2945 Colerain Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3348 Bonaparte Ave.Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1200 block of Main StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," In the area of 30 Craft StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 29 West Galbraith RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3300 block of Bowling Green CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 900 block of Churchill AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6281 Robison RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1622 Waverly AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1968 Westwood Northern BoulevardCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Marathon Gas Station on West Mitchell AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5624 Chandler StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7500 block of Reading RdCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2300 block of Millvale CircleCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 700 block of Neave StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1500 block of Lingo StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6000 block of Hamilton Avenue and Marlowe AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Storrs StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4100 block of Flower AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1000 block of Wells StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 7800 block of Glen Orchard DriveCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 4900 block of Reading RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1906 Fairmount AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1700 block of Crest Hill AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 500 block of Blair AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 866 Buena Vista PlaceCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3277 Gilbert Ave (St. Leger Apartments)Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2722 Vine StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2218 Rice StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2200 block of Van Hart Street near Westwood AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1969 Millvale CourtCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 900 block of Chateau AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5805 Adelphi StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 5805 Adelphi StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1211 Jackson StreetCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1619 California AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1800 block of Mehmert Avenue in Mount AiryCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 934 Chateau AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Burlington Avenue/Central AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 244 Oakmont St.San Jose, 
+                California
+                 - Out of state
+                Incident date"," 2307 Westwood Northern BoulevardCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," Knights Inn Motel  Interstate 75 and Tylersville RdUnion Township (now known as West Chester), 
+                Ohio
+                 - Butler County
+                Incident date"," 645 East Sharon RoadCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," In a field at 6050 Beckett RoadWest Chester, 
+                Ohio
+                 - Butler County
+                Incident date"," West 6th ramp to I75 southCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," In the area of 3300 Queen Anne PlaceGrove City, 
+                Ohio
+                 - Franklin County
+                Incident date"," Little Miami River/ E. Kemper Road-Riverside DriveLoveland, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 1949 W Galbraith RdCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 6500 block of Simpson Avenue Cincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 517 Wells Mill DriveOxford, 
+                Ohio
+                 - Butler County
+                Incident date"," 3381 Greenway AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3381 Greenway AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 3381 Greenway AvenueCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," 2522 Wenning Road, Colerain TownshipCincinnati, 
+                Ohio
+                 - Hamilton County
+                Incident date"," S/B I-75 at 7.0 MPSt Bernard, 
+                Ohio
+                 - Hamilton County
+                Incident date"
+Incident date, 1/2/2011, 5/26/2011, 3/1/2011, 6/26/2011, 7/22/2011, 9/30/2011, 11/22/2011, 11/23/2011, 12/11/2010, 12/9/2010, 11/13/2010, 6/22/2010, 2/9/1969, 2/11/1969, 7/10/2010, 4/17/1969, 4/23/1969, 4/5/2010, 3/21/2010, 2/26/1970, 5/21/1970, 10/20/2009, 9/3/1970, 2/10/1971, 7/28/2009, 6/21/2008 - 8/7/2009 (Approximate), 10/3/1971, 5/23/2009, 10/4/1971, 11/17/1971, 12/29/1971, 1/23/2009, 3/2/1972, 10/22/1972, 11/15/1972, 11/16/2008, 10/27/2008, 1/5/1973, 4/18/1973, 6/8/1973, 6/14/1973, 7/29/1973, 11/22/1973, 10/10/2008, 7/9/2008, 6/11/2008, 5/8/2008, 3/18/2008, 2/17/2008, 3/10/1974, 4/3/1974, 10/8/1974, 1/21/1975, 3/21/1975, 4/29/1975, 6/6/1975, 11/6/1975, 5/27/1976, 3/6/1977, 3/31/1977, 8/16/2007, 8/1/2007, 7/26/2007, 3/24/2007, 7/3/1978, 12/6/1978, 4/20/1979, 1/14/2007, 4/30/1979, 8/31/1980, 10/17/2006, 10/2/2006, 11/22/1981, 9/4/2006, 8/23/1985, 10/31/1988, 4/21/2006, 4/3/2006, 3/5/2006, 3/1/2006, 11/23/1990, 8/30/2005, 12/21/1991, 5/12/2005, 4/28/2005, 1/30/1993, 4/5/2005, 3/23/2005, 10/17/2004, 8/11/2004, 8/2/2004, 7/19/2004, 7/6/2004, 6/9/2004, 5/23/2004, 5/22/2004, 5/17/2004, 4/22/2004, 2/24/2004, 12/29/2003, 6/7/2003, 4/15/2003, 4/10/2003, 3/20/2003, 3/13/2003, 2/14/2003, 12/14/2002, 6/23/2002, 3/16/2002, 12/29/2001, 2/15/1994, 10/7/2001, 8/16/2001, 8/12/2001, 7/22/2001, 6/5/2001, 11/9/1995, 7/24/1996, 11/18/1997, 1/3/1998, 8/19/2000, 7/19/1998, 7/12/1999, 1/1/2000, 7/23/1999, 11/8/2011, 5/26/1998 - 6/8/1998 (Approximate), Unknown, 8/8/1953, 11/25/1964, 11/25/1964, 10/12/1966, 8/3/1988, 3/22/1978, 2/7/2013, 1/18/2011, 1/22/2011, 2/18/2011, 3/23/2011, 4/4/2011, 4/28/2011, 5/10/2011, 5/15/2011, 3/7/2011, 6/12/2011, 6/20/2011, 8/19/2011, 8/21/2011, 9/25/2011, 10/17/2011, 10/30/2011, 12/7/2011, 12/28/2011, Unknown, 11/6/2010, 10/24/2010, 10/5/2010, 10/3/2010, 9/25/2010, 9/25/2010, 8/19/2010, 8/19/2010, 6/15/2010, 6/4/2010, 5/14/2010, 10/22/1969 - 10/23/1969 (Approximate), 10/22/1969 - 10/23/1969 (Approximate), 3/18/2010, 3/9/2010, 12/8/1969, 2/5/2010, 12/9/2009, 2/3/1970, 12/8/2009, 12/2/2009, 10/18/2009, 10/5/2009, 5/14/2009, 2/24/1971, 7/25/2009, 10/3/1971, 7/10/2009, 4/22/2009, 4/12/2009, 10/8/1971, 1/26/2009, 2/15/1972, 1/1/2009, 11/29/2008, 5/11/1972, 11/23/2008, 8/9/2008, 10/23/2010, 11/4/2008, 7/8/1973, 12/22/1973, 10/4/2008, 9/24/2008, 8/25/2008, 8/15/2008, 8/11/2008, 8/2/2008, 6/19/2008, 6/6/2008, 4/30/2008, 3/4/2008, 3/5/2008, 2/22/1974, 3/12/1974, 6/5/1974, 6/12/1974, 11/22/1974, 11/22/1974, 12/30/1974, 10/19/1975, 12/28/2007, 11/22/2007, 2/12/1976, 4/1/1976, 10/24/2007, 10/7/1976, 1/1/1977, 9/14/1976, 12/9/1977, 12/15/1977, 4/16/1978, 9/18/2007, 9/15/2007, 9/11/2007, 5/26/2007, 3/21/2007, 3/13/2007, 2/21/2007, 6/28/1978, 1/30/2007, 11/5/1978, 1/27/2007, 12/5/1978, 1/8/1979, 1/8/1979, 1/14/2007, 4/24/1979, 4/24/1979, 8/25/1979, 1/5/2007, 9/20/1979, 9/2/2006, 12/31/2006, 12/18/2006, 1/12/1981, 8/14/1981, 11/4/1981, 9/25/2006, 3/21/1982, 5/29/1982, 6/24/1982, 8/27/1982, 7/28/1986, 10/20/1986, 2/28/1987, 8/14/1987, 8/17/2006, 6/8/2006, 4/20/1989, 3/23/2006, 8/6/1989, 3/10/2006, 9/8/1989, 3/4/2006, 1/1/2006, 12/23/2005, 3/31/1990, 10/25/2005, 11/13/1989, 10/13/2005, 10/7/1990, 9/30/2005, 10/28/1990, 8/5/2005, 2/3/1991, 3/16/1991, 7/12/2005, 4/12/1991, 12/17/1991, 3/7/1992, 3/17/1992, 3/26/1992, 6/11/2005, 5/31/2005, 6/6/1992, 6/22/1992, 4/12/2005, 7/28/1992, 8/16/1992, 10/24/1992, 12/4/1992, 3/30/1993, 4/28/1993, 6/9/1993, 2/25/2005, 2/20/2005, 1/6/2005, 12/14/2004, 10/23/2004, 9/27/2004, 9/3/2004, 7/19/2004, 6/7/2004, 6/6/2004, 4/6/2004, 3/24/2004, 3/6/2004, 3/2/2004, 1/10/2004, 12/29/2003, 12/24/2003, 12/23/2003, 12/15/2003, 11/29/2003, 11/16/2003, 11/13/2003, 8/18/2003, 7/19/2003, 7/10/2003, 6/13/2003, 4/20/2003, 3/20/2003, 3/15/2003, 2/25/2003, 12/24/2002, 11/26/2002, 11/26/2002, 11/24/2002, 10/5/2002, 9/3/2002, 8/28/2002, 7/27/2002, 6/23/2002, 5/15/2002, 5/15/2002, 4/29/2002, 4/10/2002, 4/9/2002, 4/8/2002, 3/23/2002, 3/19/2002, 3/6/2002, 2/26/2002, 2/22/2002, 2/1/2002, 12/29/2001, 11/19/2001, 11/7/2001, 11/6/2001, 11/2/2001, 5/26/1994, 10/31/1994, 10/12/2001, 10/12/2001, 10/4/2001, 9/30/2001, 9/24/2001, 7/9/2001, 11/16/1994, 2/10/1995, 5/2/1995, 7/13/1995, 9/5/1995, 5/17/2001, 10/6/1995, 11/13/1995, 2/17/1996, 2/18/1996 - 2/19/1996 (Approximate), 4/23/1996, 7/6/1996, 7/25/1996, 9/4/1996, 1/3/1997, 5/31/2001, 1/25/1997, 1/30/2001, 1/23/2001, 11/24/2000, 3/25/1997, 8/30/2000, 9/10/2000, 6/22/1998, 1/4/1999, 9/23/1999, 8/7/2000, 2/18/2000, 4/25/2017, 11/30/2013, 3/13/2013, 4/11/1956, 6/7/2007, 12/17/2003, 7/19/2006, 7/19/2006, 6/13/1964, 3/22/1990, 4/13/1991, 7/23/1992, 9/2/2013, 9/27/2015, 11/2/2013, 2/23/2012, 5/16/2010, 6/9/2013, 3/11/2019, 10/22/1969 - 10/23/1969 (Approximate), 3/5/2008, 5/8/1978 - 5/20/2012 (Approximate), 8/16/1980, 5/19/1982, 8/28/1987, 1/3/1988, 9/23/1993, 4/15/2002, 9/8/2001, 3/9/1997, 8/19/2000, 1/10/2000, 2/13/2000, 12/26/2016, 8/11/2021, 9/29/2007, 12/16/2013, 5/22/2017, 10/16/2013, 10/5/2013, 4/7/2000, 3/27/2012, 4/13/2012, 11/23/2017, 4/19/2016, 3/28/2016, 7/5/2017, 5/15/2015, 6/24/2012, 8/16/2016, 7/28/2017, 7/1/2017, 6/14/2017, 5/16/2017, 2/7/2017, 5/16/2016, 10/15/2012, 1/28/2013, 11/14/2016, 10/12/2011, 6/25/2013, 11/8/2014, 12/5/2017, 3/11/2018, 3/11/2018, 3/19/2002, 4/30/2016, 7/1/2018 - 8/22/2018 (Approximate), 5/29/2018, 12/8/2016, 5/29/1995 - 6/25/1995 (Approximate), 2/27/2016, 5/26/1980, 1/5/2009, 11/16/1977 - 12/26/1977 (Approximate), 7/25/2017, 10/13/1981, 3/24/1978 - 4/8/1978 (Approximate), 1/5/2016, 3/17/2017, 12/28/1978, 9/25/1966 - 9/27/1966 (Approximate), 9/25/1966 - 9/27/1966 (Approximate), 9/25/1966 - 9/27/1966 (Approximate), 6/11/2010, 2/15/2005
+Homicide date, 1/2/2011, 5/26/2011, 3/1/2011, 6/26/2011, 7/22/2011, 9/30/2011, 11/22/2011, 11/23/2011, 12/11/2010, 12/9/2010, 11/13/2010, 6/22/2010, 2/9/1969, 2/11/1969, 7/10/2010, 4/17/1969, 4/23/1969, 4/5/2010, 3/21/2010, 2/26/1970, 5/21/1970, 10/20/2009, 9/3/1970, 2/10/1971, 7/28/2009, Unknown, 10/3/1971, 5/23/2009, 10/4/1971, 11/17/1971, 12/29/1971, 1/23/2009, 3/2/1972, 10/22/1972, 11/15/1972, 11/16/2008, 10/27/2008, 1/5/1973, 4/18/1973, 6/8/1973, 6/14/1973, 7/29/1973, 11/22/1973, 10/10/2008, 7/9/2008, 6/11/2008, 5/8/2008, 3/18/2008, 2/17/2008, 3/10/1974, 4/3/1974, 10/8/1974, 1/21/1975, 3/21/1975, 4/29/1975, 6/6/1975, 11/6/1975, 5/27/1976, 3/6/1977, 3/31/1977, 8/16/2007, 8/1/2007, 7/26/2007, 3/24/2007, 7/3/1978, 12/6/1978, 4/20/1979, 1/14/2007, 4/30/1979, 8/31/1980, 10/17/2006, 10/2/2006, 11/22/1981, 9/4/2006, 8/23/1985, 10/31/1988, 4/21/2006, 4/3/2006, 3/5/2006, 3/1/2006, 11/23/1990, 8/30/2005, 12/21/1991, 5/12/2005, 4/28/2005, 1/30/1993, 4/5/2005, 3/23/2005, 10/17/2004, 8/11/2004, 8/2/2004, 7/19/2004, 7/6/2004, 6/9/2004, 5/23/2004, 5/22/2004, 5/17/2004, 4/22/2004, 2/24/2004, 12/29/2003, 6/7/2003, 4/15/2003, 4/10/2003, 3/20/2003, 3/13/2003, 2/14/2003, 12/14/2002, 6/23/2002, 3/16/2002, 12/29/2001, 2/15/1994, 10/7/2001, 8/16/2001, 8/12/2001, 7/22/2001, 6/5/2001, 11/9/1995, 7/24/1996, 11/18/1997, 1/3/1998, 8/19/2000, 7/19/1998, 7/12/1999, 1/1/2000, 7/1/2004, 11/8/2011, Unknown, Unknown, 8/8/1953, 11/25/1964, 11/25/1964, 10/12/1966, 8/3/1988, 3/22/1978, 2/7/2013, 1/18/2011, 1/22/2011, 2/18/2011, 3/23/2011, 4/4/2011, 4/28/2011, 5/10/2011, 5/15/2011, 3/7/2011, 6/12/2011, 6/20/2011, 8/19/2011, 8/21/2011, 9/25/2011, 10/17/2011, 10/30/2011, 12/7/2011, 12/28/2011, 11/15/2011, 11/6/2010, 10/24/2010, 10/5/2010, 10/3/2010, 9/25/2010, 9/25/2010, 8/19/2010, 8/19/2010, 6/15/2010, 6/4/2010, 5/14/2010, Unknown, Unknown, 3/18/2010, 3/9/2010, 12/8/1969, 2/5/2010, 12/9/2009, 2/3/1970, 12/8/2009, 12/2/2009, 10/18/2009, 10/5/2009, 5/14/2009, 2/24/1971, 7/25/2009, 10/3/1971, 7/10/2009, 4/22/2009, 4/12/2009, 10/8/1971, 1/26/2009, 2/15/1972, 1/1/2009, 11/29/2008, 5/11/1972, 11/23/2008, 8/9/2008, 10/23/2010, 11/4/2008, 7/8/1973, 12/22/1973, 10/4/2008, 9/24/2008, 8/25/2008, 8/15/2008, 8/11/2008, 8/2/2008, 6/19/2008, 6/6/2008, 4/30/2008, 3/4/2008, 3/5/2008, 2/22/1974, 3/12/1974, 6/5/1974, 6/12/1974, 11/22/1974, 11/22/1974, 12/30/1974, 10/19/1975, 12/28/2007, 11/22/2007, 2/12/1976, 4/1/1976, 10/24/2007, 10/7/1976, 1/1/1977, 9/14/1976, 12/9/1977, 12/15/1977, 4/16/1978, 9/18/2007, 9/15/2007, 9/11/2007, 5/26/2007, 3/21/2007, 3/13/2007, 2/21/2007, 6/28/1978, 1/30/2007, 11/5/1978, 1/27/2007, 12/5/1978, 1/8/1979, 1/8/1979, 1/14/2007, 4/24/1979, 4/24/1979, 8/25/1979, 1/5/2007, 9/20/1979, 9/2/2006, 12/31/2006, 12/18/2006, 1/12/1981, 8/14/1981, 11/4/1981, 9/25/2006, 3/21/1982, 5/29/1982, 6/24/1982, 8/27/1982, 7/28/1986, 10/20/1986, 2/28/1987, 8/14/1987, 8/17/2006, 6/8/2006, 4/20/1989, 3/23/2006, 8/6/1989, 3/10/2006, 9/8/1989, 3/4/2006, 1/1/2006, 12/23/2005, 3/31/1990, 10/25/2005, Unknown, 10/13/2005, 10/7/1990, 9/30/2005, 10/28/1990, 8/5/2005, 2/3/1991, 3/16/1991, 7/12/2005, 4/12/1991, 12/17/1991, 3/7/1992, 3/17/1992, 3/26/1992, 6/11/2005, 5/31/2005, 6/6/1992, 6/22/1992, 4/12/2005, 7/28/1992, 8/16/1992, 10/24/1992, 12/4/1992, 3/30/1993, 4/28/1993, 6/9/1993, 2/25/2005, 2/20/2005, 1/6/2005, 12/14/2004, 10/23/2004, 9/27/2004, 9/3/2004, 7/19/2004, 6/7/2004, 6/6/2004, 4/6/2004, 3/24/2004, 3/6/2004, 3/2/2004, 1/10/2004, 12/29/2003, 12/24/2003, 12/23/2003, 12/15/2003, 11/29/2003, 11/16/2003, 11/13/2003, 8/18/2003, 7/19/2003, 7/10/2003, 6/13/2003, 4/20/2003, 3/20/2003, 3/15/2003, 2/25/2003, 12/24/2002, 11/26/2002, 11/26/2002, 11/24/2002, 10/5/2002, 9/3/2002, 8/28/2002, 7/27/2002, 6/23/2002, 5/15/2002, 5/15/2002, 4/29/2002, 4/10/2002, 4/9/2002, 4/8/2002, 3/23/2002, 3/19/2002, 3/6/2002, 2/26/2002, 2/22/2002, 2/1/2002, 12/29/2001, 11/19/2001, 11/7/2001, 11/6/2001, 11/2/2001, 5/26/1994, 10/31/1994, 10/12/2001, 10/12/2001, 10/4/2001, 9/30/2001, 9/24/2001, 7/9/2001, 11/16/1994, 2/10/1995, 5/2/1995, 7/13/1995, 9/5/1995, 5/17/2001, 10/6/1995, 11/13/1995, 2/17/1996, Unknown, 4/23/1996, 7/6/1996, 7/25/1996, 9/4/1996, 1/3/1997, 5/31/2001, 1/25/1997, 1/30/2001, 1/23/2001, 11/24/2000, 3/25/1997, 8/30/2000, 9/10/2000, 6/22/1998, 1/4/1999, 9/23/1999, 8/7/2000, 2/18/2000, 4/25/2017, 11/30/2013, 3/13/2013, 4/11/1956, 6/7/2007, 12/17/2003, 7/19/2006, 7/19/2006, 6/13/1964, 3/22/1990, 4/13/1991, 7/23/1992, 9/2/2013, 9/27/2015, 11/2/2013, 2/23/2012, 5/16/2010, 6/9/2013, 3/11/2019, Unknown, 3/5/2008, Unknown, 8/16/1980, 5/20/1982, 8/28/1987, 1/3/1988, 9/23/1993, 4/15/2002, 9/8/2001, 3/9/1997, 8/19/2000, 1/10/2000, 2/14/2000, 12/26/2016, 8/11/2021, 9/29/2007, 12/16/2013, 5/22/2017, 10/16/2013, 10/5/2013, 4/8/2000, 3/27/2012, 4/13/2012, 11/23/2017, 4/19/2016, 3/28/2016, 7/5/2017, 5/15/2015, 6/24/2012, 8/16/2016, 7/28/2017, 7/1/2017, 6/14/2017, 5/16/2017, 2/7/2017, 5/16/2016, 10/15/2012, 1/28/2013, 11/14/2016, 10/12/2011, 6/25/2013, 11/8/2014, 12/5/2017, 3/11/2018, 3/11/2018, 3/19/2002, 4/30/2016, Unknown, 5/29/2018, 12/8/2016, Unknown, 2/27/2016, 5/26/1980, Unknown, Unknown, 7/25/2017, 10/13/1981, Unknown, 1/5/2016, 3/17/2017, 12/28/1978, Unknown, Unknown, Unknown, 6/12/2010, 2/15/2005
+Gender, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Female, Male, Male, Male, Male, Male, Female, Male, Male, Male, Female, Male, Male, Female, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Female, Male, Male, Female, Male, Male, Female, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female,, Male, Female, Female, Female, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Female, Male, Female, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Female, Male, Male, Female, Female, Male, Male, Female, Female, Male, Male, Male, Male, Male, Female, Male, Female, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Female, Male, Male, Male, Male, Male, Female, Male, Female, Male, Male, Male, Female, Female, Male, Male, Male, Female, Male, Male, Female, Female, Male, Male, Male, Male, Female, Male, Female, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Female, Female, Female, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male,, Male, Male, Female, Male, Female, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Female, Female, Female, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Male, Female, Male, Male, Male, Male, Male, Female, Female, Male, Female, Female, Male, Male, Female, Male, Female, Female, Female, Male
+Race/Ethnicity, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, White, White, Black, White, White, Black, Black, White, Black, Black, White, Black, Black, Black, White, Black, White, Black, White, Black, White, White, Black, Black, White, White, White, White, Black, Black, Black, Black, Black,, Black, Black, Black, Black, White, White, White, Black, White,, White, Black, Black, Black, Black, Black, Hispanic, Black, White, Black, Black, Black, Black, White, Black, White, Black, Black, White, Black, White, White, Black, Black, Black, Black, Black, Black, White, White, Black, Black, Black, Black, Black, White, Black, White, Black, Black, Black, Black, Black, Black, White, Black,, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, Black, Black, Black, Black, White,,,,,, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black,, White, Black, Black, White, Black, Black, Black, Black, Black, Black, White, White, White, Black, Black,, Black, Black, Black, Black, Black, Black, Black, White, Black, Black, White, Black, Black, Black, White, Black, White, Black, Black, White, Black, Black, Black, Black, Black, White, Black, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, White, White, Black, Black, Black, Black, White, White, Black, Black, White, Black, Black, White, White, Black, White, Black, Black, Black, White, Black, Black, Black, Black, Black, White, Black, Black, Black, White, Black, White, Black, White, White, White, White, White, Black, Black, Black, White, White, White, Black, White, White, White, White, Black, Black, Black, White, Black, Black, White, White, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, White, Black, White, Black, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, White, White, Black, Black, Black, Black, Black, Black, White, White, Black, Black, Black, White, White, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, Black,, Black, Black, Black,, Black, White, Black, Black, Black, Black, Black, Black, Black, White, White, Black, Black, Black, Black, Black, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, White, White, White, Black, White, Black, Black, Black, Black, Black, Black, Black,, Black, Black, White, White, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, Black, White, White, White, White, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, White, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, Black, White, Black, Black, Black, Black, Black, Black, Black, Black, White, Black, White, White, White, Asian, Black, White, White, Black, White, White, White, White, White, Black
+Law enforcement agency, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department,, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department / Ohio Bureau of Criminal Investigation, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department / Ohio Bureau of Criminal Investigation, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department / Ohio Bureau of Criminal Investigation, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department, Cincinnati Police Department / Ohio Bureau of Criminal Investigation, Cincinnati Police Department, Cincinnati Police Department, West Chester Police Department, Hamilton County Coroner's Office, Butler County Sheriff's Office, Cincinnati Police Department, Grove City Division of Police, Loveland Police Department / Ohio Bureau of Criminal Investigation, North College Hill Police Department, North College Hill Police Department," City of Oxford, Division of Police", Hamilton County Sheriff's Office, Hamilton County Sheriff's Office, Hamilton County Sheriff's Office, Hamilton County Sheriff's Office, St. Bernard Police Department
+details," Twenty two year old Rafeal Ross was shot at 3540 Reading Road, Cincinnati, OH."," Nineteen year old David Gould was shot at 438 Madison Road, Cincinnati, OH. "," Twenty five year old Patrick Massey was shot at 201 Peete Street, Cincinnati, OH."," Eighteen year old Dion Thomas was shot at 23 Back Street, Cincinnati, OH. "," Forty five year old Roger Holmes was shot at 1891 Biegler Street, Cincinnati, OH. "," Twenty nine year old Samuel Brooks was shot at 802 Oak Street, Cincinnati, OH. "," Thirty seven year old Alfonso Gray was shot at 741 Kings Run Drive, Cincinnati, OH. "," Twenty four year old William Eaton was shot at 863 Lincoln Avenue, Cincinnati, OH."," Thirty three year old Robert A. Jones was shot at 59 Caldwell Drive, Cincinnati, OH."," Thirty one year old Delvin Jones was shot at 1668 Iliff Street, Cincinnati, OH."," Twenty six year old James Boots was shot at 1915 Central Avenue, Cincinnati, OH."," Fifty six year old James Heath was beaten to death at 298 Delta Avenue, Cincinnati, OH."," George Hook, age 73, was killed at 1725 Republic St., Cincinnati, OH."," Jennifer Judy, age 18, was stabbed to death at 311 Pike St., Cincinnati, OH."," Twenty two year old Demetrius James was shot at 15 Craft Avenue, Cincinnati, OH."," Grady Cooper, 19 years of age, was shot at 1358 Hopple St., Cincinnati, OH."," Sylvia Jones, 63 years of age, was suffocated at 1231 Vine St., Cincinnati, OH."," Seventeen year old James Hurt was shot at 7247 Reading Road, Cincinnati, OH."," Twenty year old Daris Brown was shot at 3721 Cass Avenue, Cincinnati, OH."," James Tewart, 23 years of age, was shot at 410 W. McMillan, Cincinnati, OH."," Raymond Joiner, 59 years of age, was beaten to death at 1632 Hughes, Cincinnati, OH."," Eighteen year old James Hurt was shot at 118 Green Street, Cincinnati, OH."," Marian Wells, 76 years of age, was strangled at 2100 Ravine St., Cincinnati, OH.  "," Samuel Felder, 28 years of age, was shot at 1219 Foraker St., Cincinnati, OH."," Twenty nine year old Jason Beal was shot at 874 Rockdale Avenue, Cincinnati, OH."," Twenty three year old Akeem Lewis was shot at 758 Ridgeway, Cincinnati, OH."," Sally Brown, 59 years of age, was shot at 399 W. Galbraith, Cincinnati, OH."," Eighteen year old Jeffrey Davis was shot at 1301 Linn Street, Cincinnati, OH."," Paul Mueller, 33 years of age, was shot at 4851 Gray Rd., Cincinnati, OH."," Myrtice Carr, 59 years of age, was stabbed to death at 1796 Drehman, Cincinnati, OH."," Ronald Messer, 24 years of age, was shot at 20 East Liberty St., Cincinnati, OH."," Twenty three year old Micah Wise was shot at 3571 Irving Place, Cincinnati, OH."," Barbara White, 23 years of age, was shot at Shillito's Garage in Cincinnati, OH.  "," Ernest Raines, 67 years of age, was beaten to death at 1425 Race St., Cincinnati, OH.  "," Milton Lanton, 30 years of age, was shot at 3142 Reading Rd., Cincinnati, OH.  "," Thirty two year old Anthony Oats was shot at 2440 Larona Avenue, Cincinnati, OH."," Thirty nine year old Gary Croft was shot at 686 Gholson Avenue, Cincinnati, OH."," Robert White, 45 years of age, was strangled at 2035 Elm St., Cincinnati, OH.  "," William Morton, 73 years of age, was shot at 27 E. 9th St., Cincinnati, OH. "," Andrew Hanks, 59 years of age, was shot at 3509 Reading Rd., Cincinnati, OH. "," Ben Crumm, 61 years of age, was beaten to death at 2164 Sinton, Cincinnati, OH. "," Wyman Allen, 53 years of age, was beaten to death at 1715 Frintz, Cincinnati, OH. "," Larry Martin, 20 years of age, was shot at 5370 Shelbourne, Cincinnati, OH. "," Nineteen year old Antonio Mike was shot at 5464 Bahama Terrace, Cincinnati, OH."," Twenty two year old DeWayne Fox was shot at 5150 Colerain Avenue, Cincinnati, OH."," Sixty three year old Meet Singh was shot at 3400 Montgomery Road, Cincinnati, OH."," Twenty four year old Jerrod Mason was shot at 5900 Hamilton Avenue, Cincinnati, OH."," Thirty year old Deondray Hill was shot at 334 Helen Street, Cincinnati, OH."," Eighteen year old Justin Parks was shot at 1710 Elmore Street, Cincinnati, OH."," Tyrone Bell, 30 years of age, was shot at 1045 Baymiller, Cincinnati, OH. "," Paul Even, 53 years of age, was shot at 913 Sycamore St., Cincinnati, OH. "," Martha Lyons, 48 years of age, was stabbed to death at 105 W. 9th St., Cincinnati, OH."," George Peters, 38 years of age, was shot at 243 Earnshaw, Cincinnati, OH."," William Russia, 26 years of age, was shot in the area of I-75 and 562, Cincinnati, OH."," Edward Kruse, 60 years of age, was shot at 2911 Woodburn Ave., Cincinnati, OH."," Elizabeth Gast, 57 years of age, was strangled at 619 Main St., Cincinnati, OH.  "," Julius Apple, 67 years of age, was beaten to death at 1119 Walnut St., Cincinnati, OH."," James Slaton, 22 years of age, was stabbed to death at 1409 Walnut St., Cincinnati, OH."," Dexter Finace, 63 years of age, was shot at 2313 Kemper Lane, Cincinnati, OH."," Findley Wells, 72 years of age, was shot at 219 Peete St., Cincinnati, OH."," Twenty two year old Bryan Couch was shot at 1125 Sycamore Street, Cincinnati, OH."," Thirty eight year old Terry Dennis was shot at 2401 Reading Road, Cincinnati, OH."," Twenty five year old Juan Rivera was shot at 215 Jail Alley, Cincinnati, OH."," Forty two year old Robert Jones was shot at 6 Craft Street, Cincinnati, OH."," John Price, 49 years of age, was shot in the area of Rapid Run Park, Cincinnati, OH."," Jo Ann Akins, 27 years of age, was shot at 1637 Hughes, Cincinnati, OH."," John Byrd, 61 years of age, was stabbed to death in his home at 3585 Antwerp, Cincinnati, OH.  "," Fourteen year old Dashawn Meyers was shot at 2165 Linn Street, Cincinnati, OH."," Geraldine Pride, 30 years of age, was beaten to death at 917 Dana Ave., Cincinnati, OH."," Louis Herman, 52 years of age, was killed at 1112 Marshall Ave., Cincinnati, OH."," Twenty five year old Tommy Rivers was shot at 1455 Hafer Alley, Cincinnati, OH."," Twenty eight year old Julie Bagby was shot at 3235 Bowling Green, Cincinnati, OH."," William M. Coates, 22 years of age, was shot at 1408 Linn St., Cincinnati, OH."," Thirty year old Sam Brown III was shot at 3587 Haven Avenue, Cincinnati, OH."," Ruth Green, 21 years of age, was beaten to death at 5100 Old Kellogg Ave., Cincinnati, OH."," Timothy Harris, 19 years of age, was shot at 1503 Ruth Ave., Cincinnati, OH."," Forty year old Chris Challis was shot at 1686 Blue Rock Road, Cincinnati, OH."," Thirty one year old Lana Brown was shot at 1400 Race Street, Cincinnati, OH."," Eighteen year old Joshua Dykes was shot at 2626 Vine Street, Cincinnati, OH."," Twenty two year old Jason T. Wynn was shot at 521 Forest Avenue, Cincinnati, OH."," Ralph Ralph, 36 years of age, was shot at 3361 Reading Rd., Cincinnati, OH."," Eighteen year old Deandre Jones was shot at 1234 Vine Street, Cincinnati, OH."," Gregory Reed, 32 years of age, was shot at 740 Morgan St., Cincinnati, OH.  The suspect was a black male."," Twenty four year old Dontay Davis was shot at 1436 Apjones, Cincinnati, OH."," Thirty three year old Larry T. Rich was shot at 1509 Yarmouth, Cincinnati, OH."," Jerry Vogt, 54 years of age, was stabbed to death in his home at 6538 S. Oak Knoll Dr., Cincinnati, OH."," Twenty four year old Dale Little was shot at 1630 Linden Avenue, Cincinnati, OH."," Forty year old John C. Morgan was shot at 128 Vine Street, Cincinnati, OH."," Eighteen year old Dominic Webb was shot at 2 Topridge Place, Cincinnati, OH."," Twenty year old Cody Brock III was shot at 18 Thill Street, Cincinnati, OH."," Twenty four year old Fred Cobbs Jr was shot at 864 Dutch Colony, Cincinnati, OH."," Seventy four year old Carl Watson was beaten to death at 1122 Elm Street #6, Cincinnati, OH."," Twenty three year old Dontay L. Mahan was shot at 1527 Race Street, Cincinnati, OH."," Forty one year old Rodney Massey was shot at 535 East 13th Street, Cincinnati, OH."," Twenty six year old Rico C. Adams was shot at 512 East 12th Street, Cincinnati, OH."," Forty two year old Ronald Hunter was shot at 1800 Minion Avenue, Cincinnati, OH."," Twenty eight year old Antonio Dumas was shot at 1 West 13th Street, Cincinnati, OH."," Eighteen year old Stacey Gray was shot at 5609 Tompkins Avenue, Cincinnati, OH."," Sixteen year old Dionta Lamar Brown was shot at 1663 Summit Road #1, Cincinnati, OH."," Twenty one year old Daniel White was shot at 1415 Hafer Alley, Cincinnati, OH."," Thirty eight year old David B. Bilby was shot at 1599 Central Parkway, Cincinnati, OH."," Twenty three year old Antonio Brady was shot at 4530 Reading Road, Cincinnati, OH."," Twenty five year old Mait Molter was shot at 951 Blair Court, Cincinnati, OH."," Twenty nine year old Yohance Powers was shot at 1811 Elm Street, Cincinnati, OH."," Twenty three year old Michael Owens was shot at 3501 Burnet Avenue, Cincinnati, OH."," Forty six year old Herman Brown was beaten to death at 2572 Sarvis Court, Cincinnati, OH."," Twenty two year old Timothy Canady was shot at 406 Ludlow, Cincinnati, OH."," Seventeen year old Anthony Buck was shot at 3636 Vine Street, Cincinnati, OH."," Twenty three year old Antonia Grant was shot at 2023 Vine Street, Cincinnati, OH."," Thirty year old Calvin Davis was shot at 1344 Vine Street, Cincinnati, OH."," Henry Bonds also known as Khalil Sami, 41 years of age, was shot at 910 Race St., Cincinnati, OH."," Forty one year old Barry Woods was shot at 836 Clark Street, Cincinnati, OH."," Twenty one year old Rico Coleman was shot at 2000 Vine Street, Cincinnati, OH."," Twenty year old Brian Ballew was shot at 617 Union Street, Cincinnati, OH."," Eighteen year old Jeremy Long was shot at 2059 West Clifton, Cincinnati, OH."," Eighteen year old Jason Gandy was shot at 4240 Hamilton Avenue, Cincinnati, OH."," Seante Lackey, 20 years of age, was shot at 2395 Symmes St., Cincinnati, OH."," Ray Tubbs, 32 years of age, was shot at 841 Wehrman at Fredonia, Cincinnati, OH."," Djuan Martin, 22 years of age, was shot at 1901 Baymiller St., Cincinnati, OH.  "," Corey Blye, 22 years of age, was shot at 1974 Sutter Ave., Cincinnati, OH.  "," Forty six year old Maurice Green was beaten to death at 2006 Alvin Street, Cincinnati, OH."," Dale Hoerst, 27 years of age, was shot at 1041 Cutter St., Cincinnati, OH.  "," Albert Fain, 25 years of age, was shot at 818 Wells Ave., Cincinnati, OH.  "," Anthony Davis, 28 years of age, was shot at 1902 Vine St., Cincinnati, OH."," Twenty four year old Brandon Walls was shot at 1342 Walnut Street #6, Cincinnati, OH. "," Ninety one year old Rufus Kelley was shot at 2610 Park Avenue, Cincinnati, OH. "," The incident that led to the death of Joe Hicks, 2 months old, occurred at 1441 Pullan, Cincinnati, OH.  He died on 6/8/1998 at the hospital at 375 Dixmyth, Cincinnati, OH.", Date of of death 1943,Anyone with additional information or questions regarding this case should submit a tip.,Anyone with additional information or questions regarding this case should submit a tip.,Anyone with additional information or questions regarding this case should submit a tip.,Anyone with additional information or questions regarding this case should submit a tip.," Anesia Rogers's, 21 years of age, was strangled to death.  A fire was set to destroy evidence."," Donna Stallings, 26 years of age, was shot in her apartment building at 922 Marion Ave., Cincinnati, OH.  She died later at General Hospital.  She was a student at Cincinnati Technical College."," The Cincinnati is investigating a homicide that occurred at 4916 Mathis Street. On Thursday, February 7, 2013, at approximately 10:28 p.m., the Cincinnati Emergency Communications Center received a report of a person shot. District Two officers and Cincinnati Fire Department personnel responded and found Curtis Tucker, black male, 49 years old at that location."," Twenty four year old David Carter was shot at 5726 Montgomery Road, Cincinnati, OH."," Twenty eight year old James Christopher was shot at 1285 Rutledge Avenue, Cincinnati, OH."," Twenty two year old Desmond Jennings was shot at Westbound State Route 562 at 0 mile marker, Cincinnati, OH."," Twenty two year old De'Andre Johnson was shot at 624 Rockdale Avenue, Cincinnati, OH. "," Thirty eight year old Eric McMullen was shot at 4182 Vine Street, Cincinnati, OH. "," Thirty year old Michael Smith was shot at 2801 Colerain Avenue, Cincinnati, OH. "," Twenty one year old Donnell Johnson was shot at 1601 John Street, Cincinnati, OH. "," Twenty seven year old Lorenzo Gordon was shot at 1715 Vine Street, Cincinnati, OH. "," Thirty year old Gregory Kennedy was shot at 213 Eton Place, Cincinnati, OH."," Thirty five year old Curtis Harris was shot at 530 Poplar Street, Cincinnati, OH. "," Twenty four year old Andre Summers was shot at 247 Gilman Avenue, Cincinnati, OH. "," Twenty two year old Donshae L. Williams was shot at 2638 Ocosta Avenue, Cincinnati, OH. "," Twenty seven year old Carey Barnes was shot at 7006 Glenmeadow Lane, Cincinnati, OH. "," Thirty year old Michael Henderson was shot inside his vehicle at 3410 Cleveland Court, Cincinnati, OH. "," Twenty five year old William R. Stargel IV was shot at 5208 Ebersole Avenue, Cincinnati, OH. "," Sixty year old Anthony Ballard was shot at 694 Gholson Avenue, Cincinnati, OH. "," Fifty six year old Keith Thomas was shot at 3273 Gilbert Avenue, Cincinnati, OH. "," Thirty two year old James Gaither was shot at 5542 Colerain Avenue, Cincinnati, OH."," Twenty four year old Muhammad Mumin was shot at 2201 Harrison Avenue , Cincinnati, OH in 2007 and later died on 11/15/2011."," Thirty seven year old Desiree Brady was shot inside her home at 3140 Gloss Avenue, Cincinnati, OH."," Forty one year Kevin Jeter was shot in his vehicle at 1304 California Avenue , Cincinnati, OH."," Thirty seven year old David Williams was shot inside 1826 Hewitt Avenue, Cincinnati, OH."," Forty six year old Bradley Master was shot at 727 Lindsey Alley, Cincinnati, OH."," Forty year old James Reed was shot at 3250 Rammelsberg Street, Cincinnati, OH along with his son, Jarenta Reed."," Jarenta Reed was shot at 3250 Rammelsberg Street, Cincinnati, OH along with his father, James Reed."," Twenty five year old Anthony Tait was shot at 1511 Gilpin Avenue, Cincinnati, OH along with Michael Burgess."," Twenty five year old Michael Burgess was shot at 1511 Gilpin Avenue, Cincinnati, OH along with Anthony Tait."," Twenty seven year old Christopher Minor was shot at 1721 Dana Avenue, Cincinnati, OH."," Nineteen year old Joshua Sanders was shot at 5808 Peabody Street, Cincinnati, OH."," Twenty six year old Jonathan Lunsford was shot at 2026 Millvale Court, Cincinnati, OH."," Twenty seven year old Patricia Dumler, her husband Martin Dumler and her mother, Mary Wilson were shot and stabbed to death at 1192 Beverly Hills, Cincinnati, OH.  "," Twenty eight year old Martin Dumler, his wife Patricia Dumler and Patricia's mother, Mary Wilson were shot and stabbed to death at 1192 Beverly Hills, Cincinnati, OH.  "," Thirty six year old Lawrence ""Antwan"" McElroy was shot at 39 Topridge Place, Cincinnati, OH."," Twenty four year old Charles ""Wes"" Foster was shot at 708 Glenwood Avenue, Cincinnati, OH."," Katheryn Cooper was beaten to death at 3737 Isabella Ave., Cincinnati, OH."," Twenty year old Rolandus Mitchell was shot at 615 Maple Avenue, Cincinnati, OH."," Thirty three year old Antonio Ward was shot at 2296 Baltimore Avenue, Cincinnati, OH."," Stanford Favors, 30 years of age, was shot at 1300 East Liberty, Cincinnati, OH."," Twenty three year old Frederick McClain was shot at 525 Rockdale Avenue, Cincinnati, OH."," Fifty three year old Gregory Collins was shot at 2013 Highland Avenue, Cincinnati, OH."," Seventeen year old DeAris Williams was shot at 3712 York Lane, Cincinnati, OH."," Twenty nine year old Terrance Newell was shot at 4146 Gordon Street, Cincinnati, OH."," Thirty four year old Laura Castillo was beaten to death at 2639 Cora Avenue, Cincinnati, OH."," Andrew McKnight, 67 years of age, was shot at 3712 Borden St., Cincinnati, OH."," Twenty six year old Rio Antonio Famble was shot at 1313 Walnut Street, Cincinnati, OH."," Eugene Pearson, 24 years of age, was killed at 828 Wehrman St., Cincinnati, OH."," Eighteen year old Marquale Smith was shot at 3669 Reading Road, Cincinnati, OH."," Thirty two year old Victoria Gibson was shot inside her home at 752 Chestnut Street, Cincinnati, OH."," Thirty year old Joshua Erkins was shot inside his vehicle at 1717 Vine Street, Cincinnati, OH."," Catherine Walther, 90 years of age, was beaten to death at 216 East Liberty St., Cincinnati, OH."," Thirty year old Bryon Freeman was shot at 946 Burton Avenue #13, Cincinnati, OH."," Lorraine Hubble, 47 years of age, was strangled at 2920 Asland Ave., Cincinnati, OH.  "," Twenty three year old Jimmie Patterson was shot at 800 W. 8th Street, Cincinnati, OH during a family New Year's Eve party."," Twenty seven year old Joshua Jones was shot at 2461 Westwood Northern Avenue, Cincinnati, OH."," Rodney Eigenberger, 31 years of age, was shot at 418 Race St., Cincinnati, OH.  "," Thirty year old Lashon Reese was shot at 5643 Montgomery Road, Cincinnati, OH."," Seventy nine year old Paul Crawley Sr. was shot at 6730 Dante Avenue, Cincinnati, OH."," Forty nine year old James Sellers was shot in his vehicle at 5275 Winneste Avenue, Cincinnati, OH."," Twenty six year old Rico Spencer was shot at 3163 Moosewood Avenue, Cincinnati, OH."," James Anderson, 56 years of age, was stabbed to death at 255 Fosdick, Cincinnati, OH. "," Lotze Feisthammel, 69 years of age, was beaten to death at 8 West Elder, Cincinnati, OH. "," Eighteen year old Charles Woods was shot at 5488 Bahama Terrace, Cincinnati, OH."," Forty six year old Demetrius Wood was stabbed to death at 1836 Republic Street, Cincinnati, OH."," Twenty three year old William Gentry was beaten to death at 1637 Westwood Avenue, Cincinnati, OH."," Twenty nine year old Ronnie Wilks was shot at 8101 Anthony Wayne Avenue, Cincinnati, OH."," Fifty six year old James Gamble was shot at 2500 Highland Avenue, Cincinnati, OH."," Twenty nine year old Rondel Barton was shot at 3625 Irving Street, Cincinnati, OH."," Twenty four year old Leron Billings was shot at 643 Manitou, Cincinnati, OH."," Thirty nine year old Victoria Thompson was shot at 3220 Moosewood Avenue, Cincinnati, OH."," Thirty two year old Demetrius Taylor was shot at 2604 Eden Avenue, Cincinnati, OH."," Twenty three year old Timothy Jackson was shot at 1631 Sparkle Drive, Cincinnati, OH."," Thirty four year old Takisha Maupin was stabbed to death inside her home at 3418 Reading Road #329, Cincinnati, OH, along with James Grafinreed."," James Carl Hubbard, 32 years of age, was shot at 2200 Victory Parkway, Cincinnati, OH. "," Robert Spraul, 63 years of age, was beaten to death at 475 Purcell Ave., Cincinnati, OH. "," Mattie Broadus, 70 years of age, was stabbed to death at W. 4th St. #15A, Cincinnati, OH. "," Angela Tucker, 5 years of age, was killed in a fire at 1525 Pleasant St., Cincinnati, OH.  The fire was ruled an arson."," Kenneth Wright also known as Kareem Hassan, 34 years of age, was shot at 3517 Reading Rd., Cincinnati, OH.  This was part of a double homicide."," Almond Ware, 45 years of age, was shot at 3517 Reading Rd., Cincinnati, OH.  This was part of a double homicide."," Sylvia Cabalic, 24 years of age, was beaten to death at 507 Lowell Ave., Cincinnati, OH."," Gert Anderson, 86 years of age, was beaten to death at 11 E. 8th St., Cincinnati, OH."," Twenty one year old Bruce Calloway was shot at 218 Peete Street, Cincinnati, OH."," Sixty year old Israel Muhammed was beaten to death inside 1307 Yukon #1, Cincinnati, OH."," Archibald Jackson, 83 years of age, was beaten to death at 1034 Mound, Cincinnati, OH."," Andre Dupre Million, 1 year of age, was beaten to death at 10 West St., Cincinnati, OH."," Thirty three year old Clifford Gayle Jr was shot at 3305 Woodburn Avenue, Cincinnati, OH."," Rachael Shumato, 75 years of age, was beaten to death at 1329 Clay St., Cincinnati, OH."," James Newkirk, 54 years of age, was stabbed to death at 1215 Sunset, Cincinnati, OH."," Darlene Baker, 19 years of age, was beaten to death in her apartment at 28 Craft St., Cincinnati, OH.  Witnesses saw a black male climbing out of an apartment window around 4:00 am."," Gordon Michael, 23 years of age, was shot at 1704 Columbia Parkway, Cincinnati, OH."," Joann Roberson, 16 years of age, was shot at 3419 Pleasant View, Cincinnati, OH."," John Henry Henderson also known as ""Monk"", 29 years of age, was shot and stabbed in the area of 746 Glenwood Ave., Cincinnati, OH. "," Nineteen year old Justin Moore was shot at 1330 California Avenue, Cincinnati, OH."," Thirty one year old Leslie Reffit was shot at 2026 Seymour Avenue, Cincinnati, OH."," Twenty seven year old Gary Johnson was shot at 717 Ridgeway, Cincinnati, OH."," Twenty year old Herbert Harrison was shot at 3598 Washington Street, Cincinnati, OH."," Twenty two year old Christopher Bailey was shot at 2363 Millvale Court, Cincinnati, OH."," Twenty seven year old Michael L. Barber was shot at 2809 Maryland Avenue, Cincinnati, OH."," Sixteen year old Matthew McDonald was shot at 2712 Vine Street, Cincinnati, OH."," Herbie King, 5 years of age, died of asphyxiation at 4040 Hamilton Ave., Cincinnati, OH."," Twenty four year old Angelo Jackson was shot at 3584 Reading Road, Cincinnati, OH."," George McArthur, 51 years of age, was stabbed to death at 2800 Victoria Parkway, Cincinnati, OH."," Twenty six year old Christopher Boyd was shot in the wooded area of 2409 Sunnyhill, Cincinnati, OH."," Ottelia Tavender, 84 years of age, was beaten to death at 1 E. Court St., Cincinnati, OH."," Delores McClain, 67 years of age, was beaten to death at 27 Craft St., Cincinnati, OH.  This was part of a double homicide."," Charles Brothers, 67 years of age, was beaten to death at 27 Craft St., Cincinnati, OH.  This was part of a double homicide."," Twenty six year old Robert McPherson was shot at 1923 Colby Alley, Cincinnati, OH."," Robert Clos, 15 years of age, was shot at 4546 Spring Grove Ave., Cincinnati, OH.  This was part of a double homicide."," Walter Rose, 48 years of age, was shot at 4546 Spring Grove Ave., Cincinnati, OH.  This was part of a double homicide."," Billy Ray Howlington, 37 years of age, was stabbed to death at 1537 Republic St., Cincinnati, OH."," Forty seven year old Paula Wolfe was shot and her body was discovered at 1750 Gilbert Avenue, Cincinnati, OH."," Delfio Servizi, 53 years of age, was beaten to death at 5116 Hawaiian Terrace, Cincinnati, OH."," The body of forty three year old Anna Mughni was found in the river at 2063 Eastern Avenue, Cincinnati, OH."," Eighteen year old Clamar Henderson was shot at 2924 Gilbert Avenue, Cincinnati, OH."," Sixteen year old DeAngelo Harness was shot at 2829 Park Avenue, Cincinnati, OH."," David Brook, 77 years of age, was beaten to death during a robbery at 1020 Baldwin Alley, Cincinnati, OH."," Tammy Cain, 17 years of age, was killed at 900 Groesbeck Rd., Cincinnati, OH.  She was last seen at the Carthage fair."," Karla Rogers, 18 years of age, was beaten to death at 5207 Beechmont Ave., Cincinnati, OH.  "," Twenty eight year old Khaalis Williams was shot inside 2955 West McMicken Avenue, Cincinnati, OH."," Donald Jones, 71 years of age, was shot during a robbery at 1439 Elm St., Cincinnati, OH.  The suspect was a black male, approximately 5'11"" and 180 lbs., and in his 40's."," Norman Collins, 43 years of age, was beaten to death at 1308 Vine St., Cincinnati, OH.  "," Ernestine Hurt, 48 years of age, was stabbed to death on the sidewalk at 202 E. 6th St., Cincinnati, OH.  The suspect was a black male. "," Ben Tolpin, 75 years of age, was stabbed to death during a robbery at 4930 Paddock Rd., Cincinnati, OH.  The suspect was a black male, approximately 24 years old and 6'3"", and a thin build.  "," Floyd Heidelberg, 56 years of age, was shot during a drug-related incident at 2127 Gilbert Ave. Apt. 61, Cincinnati, OH."," Vonda Williams, 21 years of age, was stabbed to death at 103 E. Clifton Ave., Cincinnati, OH."," Elizabeth Thompson, 39 years of age, was beaten to death at 412 Wade St., Cincinnati, OH."," James Wilcox, 27 years of age, was stabbed to death at 2224 Westwood Northern Blvd., Cincinnati, OH.  "," Fifty five year old Kenneth Cunningham was shot at 2350 Henrianne Court, Cincinnati, OH."," Thirty four year old Dion Peterson was shot at 1101 Bank Street, Cincinnati, OH."," Chandler Franks, 70 years of age, was beaten to death at his residence at 2329 May St., Cincinnati, OH.  The suspect was a black male."," Fifty three year old Nancy Belew was stabbed to death inside her home 5930 Hamilton Avenue, Cincinnati, OH."," Phillip Conover, 48 years of age, was shot at his residence in Cincinnati, OH.  Conover was last seen walking his dog on the day of the murder."," Twenty eight year old Lakeisha Streety was strangled to death inside her home 2812 Stanton Avenue, Cincinnati, OH."," Barry Dillon, 33 years of age, was beaten in the area of the 1600 block of Walnut St., Cincinnati, OH.  He went to the hospital on his own, where he later died."," Thirty one year old Ryan Caldwell was shot at 7733 Reading Road, Cincinnati, OH."," Nineteen year old Edwan Richarson was shot at 1430 Vine Street, Cincinnati, OH."," Forty eight year old Darrell Achoe was stabbed to death at 1308 Race Street, Cincinnati, OH."," Allen Wooten, 27 years of age, was shot at 833 Bank St., Cincinnati, OH.  The suspects were three black males."," Nineteen year old Kenneth Glenn was shot at 2564 Kipling Avenue #2, Cincinnati, OH."," Catherine Wilson, 56 years of age, was strangled at 945 Dana Ave., Cincinnati, OH.  A fire had been set to cover up the offense."," Twenty nine year old Montez McKelton was shot at 882 Buena Vista, Cincinnati, OH."," John Lacey, 75 years of age, was beaten to death at 5318 Ebersole Ave., Cincinnati, OH.  Lacey was confined to a wheelchair at the time of the incident."," Twenty four year old Mohamed Mustafa was shot at 268 W. McMicken, Cincinnati, OH."," Louis Whitesell, 49 years of age, was shot and found in a phone booth in the area of 234 Playfield Rd. (Lunken Airport), Cincinnati, OH."," Forty six year old Michael Miller was shot at 2956 Highforest Lane, Cincinnati, OH."," Matthew Watkins, 28 years of age, was shot at 1706 Frintz St., Cincinnati, OH.  The suspect was a black male."," John Thomas, 20 years of age, was found on the street near his motorcycle, beaten to death at 3760 Brotherton Rd., Cincinnati, OH.  The suspect was a white male."," Twenty seven year old Antjuan Jackson was shot at 1150 Sycamore Street, Cincinnati, OH."," Elizabeth McCoy, 38 years of age, was shot at 1309 William Howard Taft Rd., Cincinnati, OH."," Damon Caudill, 41 years of age, was shot while sitting in his car at 3755 Westmont Dr., Cincinnati, OH."," Stacey Jordan, 25 years of age, was stabbed to death and placed in the basement at 3204 Wold Ave., Cincinnati, OH."," Raymond Bradford, 41 years of age, was beaten to death in his apartment at 423 Whiteman St., Cincinnati, OH."," Floyd Davis, 23 years of age, was shot in the basement of his home at 3455 Jay St., Cincinnati, OH.  The suspect was a black male."," Sixty nine year old William Shelery was shot at 930 E. Martin Luther King Drive, Cincinnati, OH."," Fifty one year old Sherman Booth was shot during a domestic dispute at 4814 Yarmouth Avenue , Cincinnati, OH."," Norman Watkins, 42 years of age, was shot at 20 E. 12th St., Cincinnati, OH.  The suspect was a black male."," Victor Harman, 34 years of age, was shot during his lunch break in his car at 1122 Garden St., Cincinnati, OH."," Twenty nine year old Winston R. Harris was shot at 3473 Harvey Avenue, Cincinnati, OH."," Suytton Thomas, 26 years of age, was shot in his apartment at 2020H Sutter Ave., Cincinnati, OH during a home invasion robbery.  The suspects were 3 black males."," Charles Cravens, 26 years of age, was shot in his girlfriend's apartment at 551 Derrick Turnbow Way, Cincinnati, OH.  The suspects were 2 black males."," Larue Hardin, 19 years of age, was shot while stopped at a traffic light at 3 W. Liberty St., Cincinnati, OH.  The suspects were 2 black males."," Willie Williams, 47 years of age, was shot while sitting in his vehicle at 5434 Varsity Circle, Cincinnati, OH."," Steven Williams, 19 years of age, was shot at 3505 1/2 Burnet Ave., Cincinnati, OH.  The suspect was a black male, approximately 24 years old, 5'8"" and 160 lbs."," Tanan Peyton, 19 years of age, was shot at 3078 Moosewood Court, Cincinnati, OH.  The suspects were 4 black males in a white 1979 Oldsmobile Delta."," Willie Lee Jordan, 56 years of age, was killed at 255 McGregor Ave. #11, Cincinnati, OH."," Thirty one year old Obadiah Carlisle was shot inside 100 E. McMicken Avenue, Cincinnati, OH."," Sixteen year old William Copeland was shot at 4926 Reading Road, Cincinnati, OH."," Thirty year old Darrell Morton was shot at 845 Ezzard Charles Drive, Cincinnati, OH."," Twenty six year old Erich Weghorn was shot at 125 West Liberty Street, Cincinnati, OH."," Fifty six year old Timothy Wightman was shot at 1274 Elsinore Place, Cincinnati, OH."," Twenty two year old William L. Wilson was shot at 3424 Cardiff Avenue, Cincinnati, OH."," Twenty six year old Kenneth lackey was shot at 2960 Highforest Lane, Cincinnati, OH."," Fifteen year old Steve Milford was shot at 3220 Moosewood Avenue, Cincinnati, OH."," Twenty four year old Walter Gilliam was shot at 872 Buena Vista Place, Cincinnati, OH."," Twenty eight year old Maria Cole-Johnson was shot in her home at 515 East 13th Street #3, Cincinnati, OH."," Forty three year old Gentria Lynn Thomas was strangled at 351 East Third Street, Cincinnati, OH."," Seventeen year old Anthony Frakes was shot at 127 East Clifton Avenue, Cincinnati, OH."," Thirty nine year old Ronald Campbell was shot at 264 Stark Street, Cincinnati, OH."," Twenty year old Michael Terrell was shot at 1651 Hammer Street, Cincinnati, OH."," Twenty five year old Michael Royles was shot at 3570 Montgomery Road, Cincinnati, OH."," Thirty year old Allen Shannon was shot at 1403 Carolina, Cincinnati, OH."," Twenty three year old Kevin Fisher was shot at 3603 McHenry Avenue, Cincinnati, OH."," Thirty six year old Nicholas Miller was shot at 2286 Millvale Court, Cincinnati, OH."," Thirty three year old Bronson Robinson was shot at 1624 Vine Street, Cincinnati, OH."," Twenty one year old Brian Maxwell was shot at 1900 Seymour Avenue, Cincinnati, OH."," Fifty year old William Sheidt was shot at 2100 Montana Avenue, Cincinnati, OH."," Twenty seven year old Michael Worsham was shot at 2026 Baltimore Street, Cincinnati, OH."," Forty four year old Amerrintha Spikes was stabbed to death at 416 Livingston Street, Cincinnati, OH."," Fifty two year old William Clendenning was shot at 603 West Pete Rose Way, Cincinnati, OH."," Nineteen year old Rodney Earl Smith Jr was shot at 8380 Anthony Wayne, Cincinnati, OH."," Thirty three year old Clarence E. Mosely was shot at 1726 Linn Street, Cincinnati, OH."," Twenty seven year old Joseph Avery was shot at 517 Livingston Street, Cincinnati, OH."," Twenty six year old Ricardo Williams was shot at 1811 Elm Street, Cincinnati, OH."," Twenty six year old Dante Guilford was shot at 3257 Bowling Green Court, Cincinnati, OH"," Forty three year old Terrence Halsey was shot at 134 Glenridge Place, Cincinnati, OH."," Twenty seven year old Cortez Blassingame was shot at 1956 Kentucky Avenue, Cincinnati, OH."," Forty nine year old Charles Barfield was shot at 1987 Sutter Avenue, Cincinnati, OH."," Thirty one year old Kareem Brogden was shot at 1720 Frintz Street, Cincinnati, OH."," Thirty three year old Robert Sherrod was shot at 1651 Central Avenue, Cincinnati, OH."," Sixty eight year old Helen Wright was strangled to death at 1406 Locust #4, Cincinnati, OH."," Twenty two year old Kevin Redding was found deceased at 5851 Winton Ridge, Cincinnati, OH."," Twenty two year old Kevin Johnson was shot at 260 West McMicken Street, Cincinnati, OH."," Twenty five year old Samuel McDaniel was shot at 2019 Central Avenue, Cincinnati, OH."," Twenty three year old Michael Morris was shot at 5850 Center Hill Drive, Cincinnati, OH."," Sixteen year old Johnathan Ferfuson was shot at 8 East McMicken Street, Cincinnati, OH."," Twenty eight year old Ibrahima Gumanch was shot at 913 Lincoln Avenue, Cincinnati, OH."," Forty eight year old Michael Earl Nelson was shot at 3265 Brotherton Road, Cincinnati, OH."," Fifty six year old Mike Morfield was beaten to death at 2460 Boudinot #2, Cincinnati, OH."," Forty seven year old Stanely Elliott was shot at 1865 Glendon Place, Cincinnati, OH."," Fifty seven year old Jagdishch V. Patel was shot at 6010 Montgomery Road, Cincinnati, OH."," Twenty one year old Nathaniel Brice Jr. was shot at 8334 Anthony Wayne Street, Cincinnati, OH."," Twenty nine year old Kareem Pritchet was shot at 1211 Jackson Street, Cincinnati, OH."," Twenty six year old Carlos Armstrong was shot at 525 East Liberty Street, Cincinnati, OH."," Twenty three year old Ricardo Rangel Tapia was shot at 300 E. McMillan Street, Cincinnati, OH."," Twenty nine year old Christopher Arrington was shot at 3792 Westmont Avenue #204, Cincinnati, OH."," Thirty eight year old Anna Mae Lainhart was beaten to death at 6 Hust Alley, Cincinnati, OH."," Twenty six year old Antonio Crutcher was shot at 2824 Westknolls Lane, Cincinnati, OH."," Twenty three year old DeMarko Pleasant was shot at 3033 Marshall Avenue, Cincinnati, OH."," Thirty three year old Brian Steele was shot at 5618 Glenview Avenue, Cincinnati, OH."," Thirty seven year old Brent Stanford was shot at 3352 Reading Road, Cincinnati, OH."," Forty three year old Ronnie Stanford was beaten to death at 142 East McMicken, Cincinnati, OH."," Erwin L. Hayes, 20 years of age, was shot at 4690 Ashtree Dr., Cincinnati, OH.  The suspects were three black males."," Juan Maxwell, 22 years of age, was shot at 835 Poplar St. #1012, Cincinnati, OH.  The suspect was a black male."," Thirty seven year old Frank Drees and forty two year old Vicki Waters, were shot on the front porch of Drees' residence at 1278 Quebec Road, Cincinnati, OH."," Forty two year old Vicki Waters and thirty seven year old Frank Drees, were shot on the front porch of Drees' residence at 1278 Quebec Road, Cincinnati, OH."," Eighteen year old Jemar Hughes was shot at 4961 Oakdale Avenue, Cincinnati, OH."," Nineteen year old Jermaine Jackson was shot at 2480 White Street, Cincinnati, OH."," Thirty nine year old Robert L. Johnson was shot at 5954 Rhode Island, Cincinnati, OH."," Forty two year old Derrick Harrison was shot at 3401 McHenry #6, Cincinnati, OH."," Terrell White, 21 years of age, was beaten at 1901 River Rd., Cincinnati, OH.  The cause of death was unknown."," Leon O. Lumpkin, 33 years of age, was shot and stabbed to death in his apartment at 133 Glenridge Place Apt. D, Cincinnati, OH."," Darrell Peters, 27 years of age, was strangled and stabbed at 3338 Glenway Ave., Cincinnati, OH.  "," Beth Ann Hill, 29 years of age, was beaten to death in her residence at 47 W McMicken St., Cincinnati, OH.  The suspect was a black male."," Harry L. Everett, 74 years of age, was shot in a store at 1838 Dana Ave., Cincinnati, OH during a robbery.  The suspects were two black males."," Thirty one year old Xavier Williams was shot at 1508 West North Bend, Cincinnati, OH."," Morris Jordan, 70 years of age, was shot at 563 W Liberty St., Cincinnati, OH during a robbery in the hallway outside of his apartment.  The suspects were two black males."," Victor Edwards, 30 years of age, was shot at 806 Blair Ave., Cincinnati, OH.  The suspects were two black males."," Christopher Morrow, 24 years of age, was shot at 1100 Vienna Woods Dr., Cincinnati, OH.  The suspects were three black males."," Ronnie Hall, 56 years of age, was stabbed to death in his apartment at 686 Gholson Ave. #9, Cincinnati, OH."," Francis Espy, 29 years of age, was shot during a verbal altercation with a black male at 1331 Vine St., Cincinnati, OH."," Charles Barrow, 25 years of age, was shot at 37 Glencoe Place Apt. B, Cincinnati, OH."," Michael Lammy, 25 years of age, was shot inside a vehicle at 500 Straight St., Cincinnati, OH."," Delores Lowe, 36 years of age, was beaten and strangled in the Hoffman schoolyard at 3060 Durrell, Cincinnati, OH.  "," James L. Johnson, 44 years of age, was shot at 1329 William Howard Taft #13, Cincinnati, OH."," Twenty seven year old Abou Ndongo was shot at 420 Charlotte Street, Cincinnati, OH."," Derrick Cannon, 26 years of age, was shot at 2809 Woodburn Ave., Cincinnati, OH.  The suspect was a black male."," Twenty two year old Jerome Walker was shot at 65 East McMicken, Cincinnati, OH."," Seventy five year old Florence Everett was stabbed to death at 1203 Bates Avenue, Cincinnati, OH."," Forty eight year old Shirlene McElhaney was stabbed to death at 1621 Asmann Avenue #17, Cincinnati, OH."," Shirley Vaughn, 36 years of age, was killed at 3320 Millcreek Rd., Cincinnati, OH.  "," Forty year old Michael Morton was beaten to death at 1417 Vine Street, Cincinnati, OH."," Seventeen year old Chad Kinslow was shot at 1630 Crest Hill Avenue, Cincinnati, OH."," Angel Cain Steinriede, 1 month old, was killed at 3617 Fyffee St., Cincinnati, OH.  "," Robert Bolden, 44 years of age, was shot at 128 W Elder St., Cincinnati, OH.  Bolden was sitting in the Elder Cafe when a black male in his 30's threatened him, left, and returned and shot Bolden before fleeing."," Lena Ranford, 33 years of age, was strangled and dumped at 1427 Monoque Alley, Cincinnati, OH.  "," Twenty nine year old Eric Veal was stabbed to death in his apartment at 226 McCormick Place, Cincinnati, OH."," Twenty four year old Jamie Parks was in the passenger seat of a vehicle and was shot outside of 659 Glenwood Avenue, Cincinnati, OH.  "," On April 25, 2017, at 12:02 a.m., District Five officers responded to a report of a person shot at 1191 W. Galbraith Rd. The victim was located and pronounced dead on the scene by Cincinnati Fire personnel.  The victim has been identified as 24yr old Omar Muhammad."," On November 30, 2013, at 5:08 a.m., Cincinnati Police officers responded to the 500 block of Oliver Street, for a report of a person down.  Upon arrival, District One officers located a male shooting victim.  The victim was pronounced dead at the scene.  The victim has been identified as 25yr old Jaime Grimes."," On March 13, 2013, at 1:41 a.m., Cincinnati Police officers responded to the 2500 block of Highland Avenue for a reported shooting.  Upon arrival, District Four officers located a male victim deceased on the sidewalk. The victim has been identified as 32yr old Lonnel Lucas.",Anyone with additional information or questions regarding this case should submit a tip.," On June 6, 2007, at 2:25 a.m., Cincinnati Police received a 911 call to 4259 Fergus St. reference a person shot lying in the street. District Five Officers along with Cincinnati Fire Personnel responded and located a black male uffering from gun shot wounds. The victim has been identified as 25yr old John Harris. Preliminary investigation reveals that Mr. Harris was a victim of a robbery where his vehicle (Black Chev, Monte Carlo) was stolen. The vehicle has been recovered by District Five Police on Spring Grove Ave parked and unattended."," The Cincinnati Police Homicide Unit is investigating the murder of Isaac Newbill, black male 23 years old of the West End. At approximately 9:23 p.m. on December 17, 2003, Cincinnati Police were dispatched to the 400 block of Charlotte Street for a report of a man down. Upon arrival, police found Mr. Newbill suffering from a gunshot wound. He was pronounced dead at the scene."," Lora Davis and her boyfriend, Greg Haworth were found shot to death inside their apartment."," Greg Haworth and his girlfriend, Lora Davis were found shot to death inside their apartment.", Idessa Hennings's cause of death was strangulation.," Pietro Semadeni, 51 years of age, was killed while driving on I-71 at Blair overpass when a large rock was thrown from the overpass."," Sharman Kinney, 40 years of age, was stabbed and strangled at an unknown location and found in a wooded lot at 616 Glenwood Avenue.  "," Calvin L. Bush, 16 years of age, was shot as he got into a van at 2643 Stanton Ave. and ran to a nearby apartment at 2648 Stanton Ave. where he died."," On 09/02/2013 at approximately 11:00pm, 39yr old Ambrose Foster was shot and killed in the 1600 block of Race Street in Over-the Rhine."," In the early morning hours of September 27, 2015, 31yr old Angelo Dykes was found suffering from a gunshot wound."," On November 2, 2013, 14yr old Trevaughn Everett was shot and killed in the 500 block of Hickory Avenue in Avondale."," On February 23, 2012, 19yr old Cornell Sanders was shot and killed in the 7000 block of Glenmeadow Lane."," On May 16, 2010, 21yr old Dexter Burroughs was shot and killed inside Club Ritz on Seymour Avenue in Roselawn."," On June 09, 2013, 39yr old Derrick Minor was shot and killed at 1319 Regent Avenue in Bond Hill."," On March 11, 2019 at 2257 hours, a 911 call was received reporting a man shot at 2707 Erlene Drive. Dixon died of his injuries."," Fifty year old Mary Wilson was shot and stabbed to death at 1192 Beverly Hills, Cincinnati, OH.  This was part of a triple homicide involving two additional victims, Mary's daughter, Patricia Dumler and her husband Martin Dumler. "," Eighty year old James Grafinreed was stabbed to death inside 3418 Reading Road #329, Cincinnati, OH, along with Takisha Maupin."," Margaret Froelich, 78 years of age, was injured during a purse snatching at 311 Straight St., Cincinnati, OH on 5/8/1978 and sustained a broken hip and leg at the time.  She died on 5/20/2012 as a result of complications from her injuries and her death was ruled a homicide."," Mary Carter, 21 years of age, was strangled by ligature at 1000 Eastern Ave., Cincinnati, OH.  Her body was found at the dead end of Martin Dr.  Carter was seen getting into a midnight blue Ford pickup truck with 2 to 3 inch white stripes on its sides. "," Susan Denoma, 25 years of age, was stabbed and strangled at 5490 Beechmont Ave., Cincinnati, OH.  Susan was last seen on 5/19/1982 at approximately 11:00pm when she was out with a coworker."," Charles Potter, 40 years of age, was stabbed to death in the area of 1100 Gilbert Ave., Cincinnati, OH.  He had been at the Greyhound bus station earlier and was traveling to North Carolina from Illinois."," Jerome Carter, 41 years of age, was strangled and dumped in the area of I-75 and Mitchell Ave., Cincinnati, OH.   Carter was last seen in a bootleg bar on Green Street and left around 9:30pm.   Witnesses observed a body being pushed out of a light color, older model GM 4 door car with rust under the driver's door."," Charles Humfleet, 22 years of age, was shot in his U-Haul business at 1949 Losantiville Ave., Cincinnati, OH.  The suspects were 2 black males in a dark brown 1982-86 Cutlass Ciera 4 door vehicle."," Twenty year old Labrian Westmoreland was shot at 2924 Gilbert Avenue, Cincinnati, OH."," Forty five year old Arthur Scarborough was beaten to death at 1318 Republic Street, Cincinnati, OH."," Stephen M. Larkin, 30 years of age, was shot at 3068 Gilbert Ave., Cincinnati, OH.  Larkin was last seen at approximately 5:00 am on 3/9/1997 when the car he was in broke down at Reading and S. Crescent and they were helped by a police officer."," Twenty two year old Richard Wood was involved in an altercation and was shot at 1716 Frintz Street, Cincinnati, OH.  The suspect is described as a black male, 20's, thin, clean shaven with a short fade haircut. "," Marilyn Blassingame Randolph, 35 years of age, was strangled in the rear room of her apartment at 2945 Colerain Ave., Cincinnati, OH.  "," Michael Anthony Smith, 41 years of age, was strangled in the third floor bedroom of his residence at 3348 Bonaparte Ave., Cincinnati, OH.  Smith was last seen at approximately 10:00 am on 2/13/2000 with a black female, approximately 45 years old, with curly hair at Busken Bakery."," On December 26, 2016, Howard was found shot to death in the 1200 block of Main Street in Cincinnati. The he was driving alone in his BMW 645 convertible with the top down when shot.  Witnesses state a lone gunman approached and shot the victim multiple times and fled on foot."," On August 11, 2021, at approximately 11:43 PM, District Five officers responded to a report of a person shot in the area of 30 Craft Street. Responding officers located a shooting victim who was transported to University of Cincinnati Medical Center. Shortly after, officers were notified of a second shooting victim who arrived at Cincinnati Children’s Hospital Medical Center via private conveyance. That victim succumbed to his injuries. The deceased victim has been identified as Kyran Reese, a male 19 years of age. The identity of the surviving victim is not being released at this time. The investigation by the Cincinnati Police Department’s Homicide Unit is ongoing. Anyone with information about this homicide is asked to call the Homicide Unit at (513) 352-3542."," The Cincinnati Police Department is investigating a shooting that occurred at 29 West Galbraith Road on Saturday, September 29, 2007, at 4:10 a.m. District Four police officers responded to that area, but were later redirected by Hamilton County Sheriff’s deputies to the Speedway Service Station at Galbraith and Pippin Roads where two shooting victims were located. Colerain medical transported both shooting victims, to University Hospital where 26yr old Daniel Dudley succumbed to his injuries."," On December 16, 2013, at 6:45 p.m., Cincinnati Police officers responded to the 3300 block of Bowling Green Court for a reported shooting.  Upon arrival, District Three officers located a shooting victim on the sidewalk.  The victim was pronounced dead at the scene.  The victim has been identified as Lorenzo Hudson, 28 years of age. "," On May 22, 2017, at 11:05 p.m., a gunshot victim arrived at the University of Cincinnati Medical Center by private conveyance. The victim died of his injuries.  District Four officers determined the shooting occurred in the 900 block of Churchill Avenue.  The victim has been identified as 30yr old William Bell."," On October 16, 2013, Cincinnati Police Homicide investigators responded to the homicide of 34yr old Dannon Foreman at 6281 Robison Road.  The investigation is currently on-going.  Homicide investigators have developed composite drawings of the two suspects in the offense.  Suspect #1 is described as a black male, 27 to 32 years old, 5’5″-5’7″, medium build, with a bald or shaved head.  Suspect #2 is described as a black male, 20 to 25 years old, 5’8″-5’10”, slim build, unkept braids, with acne on his face."," On October 5, 2013, at 9:00 p.m., Cincinnati Police officers responded to 1622 Waverly Avenue to investigate a body found in the road.  Responding officers located a male victim with gunshot wounds.  The victim was pronounced dead at the scene.  The victim has been identified as 24yr old Anthony Matthews. "," Sixty year old Carole Payne was inside her apartment at 1968 Westwood Northern Boulevard,when an unknown person started a fire in the hallway just outside her apartment.  The fire spread to her apartment and she died the next day as a result of the fire."," On March 27, 2012, 23yr old Rodney Watkins was found shot in the parking lot of the Marathon Gas Station on West Mitchell Avenue.  Watkins later died from his injuries."," On April 13, 2012, at 10:27 p.m., the Emergency Communications Center dispatched District Two officers and Fire paramedics to 5624 Chandler Street for a person shot inside a vehicle. The shooting victim, identified as 26yr old Marcus Daniels."," On November 23, 2017, at 10:48 p.m., District Four Officers responded to a report of person shot in the 7500 block of Reading Rd. Responding officers located a victim suffering from a gunshot wound at the location.  The victim has been identified as 48yr old Dina Mosley."," On April 19, 2016, at 9:23 p.m., District Three officers responded to the 2300 block of Millvale Circle for a report of a person shot. The victim was identified as 31yr old Michael Pitts and determined deceased by fire. "," On March 28, 2016, at 10:00 p.m., District Three officers responded to a reported shooting in the 700 block of Neave Street. Upon arrival, officers located a victim deceased in a parked vehicle. The victim has been identified as 27yr old James Stephens."," On July 5, 2017, at 5:43 p.m., District Five officers responded to the 1500 block of Lingo Street for a reported shooting. Responding officers located the victim in a vehicle. The victim has been identified as 26yr old Dontae Whaley."," On May 15, 2015, at 8:20 p.m., District Five officers responded to the 6000 block of Hamilton Avenue and Marlowe Avenue for a reported shooting. Upon arrival, officers located a victim suffering from gunshot injuries. The victim has been identified as 30yr old Camrin Starr."," On June 24, 2012, at 2228 hours, the Emergency Communications Center received a report of a person shot at 2130 Storrs Street. District Three officers responded and located a victim at 2112 Storrs Street. The victim has been identified as 27yr old Brian Thompson."," On August 16, 2016, at approximately 12:14 a.m., District Three officers responded to the 4100 block of Flower Avenue for a report of a person shot.  The victim has been identified as 27yr old Timothy Janson."," On July 28, 2017, at approximately 2:08 a.m., District Three officers responded to the 1000 block of Wells Street for a report of a person shot. Upon arrival, officers located 41yr old Leblond Oliver suffering from a gunshot wound."," On July 1, 2017, at 8:59 p.m., District Four officers responded to a report of person shot in the 7800 block of Glen Orchard Drive. Responding officers located a victim deceased from a gunshot wound.  The victim has been identified as 27yr old Johnathan Taylor."," On June 14, 2017, at approximately 9:47 p.m., District Four officers responded to the 4900 block of Reading Road for a report of a person shot. Upon arrival, officers located 27yr old Jeremy Rohe suffering from a gunshot wound. "," On May 16, 2017, at 8:29 p.m., District Three officers responded to a report of a deceased person at 1906 Fairmount Avenue. The individual was located and pronounced dead on the scene.  This individual was identified as 50yr old Anthony Gray."," On February 7, 2017, at approximately 7:45 p.m., District Four officers responded to the 1700 block of Crest Hill Avenue for a report of a person shot. Upon arrival, officers located 42yr old Twanda Alexander suffering from a gunshot wound."," On May 16, 2016, at 22:01 p.m., District Four officers responded to a reported shooting in the 500 block of Blair Avenue. Upon arrival, officers located a victim deceased on the driveway.  The victim has been identified as 28yr old Dominic Gilbert."," On October 15, 2012, District Four officer responded to 866 Buena Vista Place to investigate a report of a shooting. The shooting victim, 55yr old Komehn Kollie was pronounced dead at University Hospital. "," On January 28th at 7:07pm, District 2 officers responded to investigate several reports of a juvenile shot at St. Leger Apartments.  First responders located 16yr old Terrence Womack outside the entrance of 3277 Gilbert Ave."," On November 14, 2016, at 6:45 pm, Clarence Gatewood was shot to death at 2722 Vine Street.   Gatewood was brought to the location by car and then walked northbound on Vine Street.  A gunman then approached and shot Gatewood."," On October 12, 2011, at 8:36 p.m., a District Four police officer was flagged down at 2600 Jefferson Avenue by a subject reporting the front seat passenger of his vehicle had been shot. Fire Personnel responded, but the victim had succumbed to his injuries. Further investigation determined the location of the shooting was at 2218 Rice Street.  The victim has been identified as 29yr old Evan McCray. There is no suspect information to release at this time. The Homicide Unit will continue to investigate the death of Mr. McCray."," On June 25, 2013 at approximately 9:00am, 34yr old Ramone Hayden was found shot to death in a blue Volkswagen SUV stopped in the street, in the 2200 block of Van Hart Street near Westwood Avenue.  The suspect description is limited to black male wearing a red ball cap last seen running westbound from Van Hart Street."," On November 8, 2014, at approximately 2:10 a.m., District 3 officers responded to investigate a report of a shooting. First responders located the victim inside a vehicle crashed into a building at 1969 Millvale Court. The victim has been identified as 29yr old Michael Pastroumas."," On December 5, 2017, at 10:27 p.m., District Three Officers responded to a report of shots fired inside an apartment in the 900 block of Chateau Avenue. Responding officers located a deceased victim inside the apartment building. The victim has been identified as 36yr old Charles Freeman Jr."," On March 11, 2018, at approximately 12:47 a.m., District 2 Officers responded to investigate a report of a shooting at 5805 Adelphi Street. First responders locate two victims inside the residence who had already succumbed to their injuries.  The victims have been identified as 57yr old Michael Myatt and his son, 30yr old Matthew Myatt."," On March 11, 2018, at approximately 12:47 a.m., District 2 Officers responded to investigate a report of a shooting at 5805 Adelphi Street. First responders locate two victims inside the residence who had already succumbed to their injuries.  The victims have been identified as 57yr old Michael Myatt and his son, 30yr old Matthew Myatt."," On March 19, 2002, at approximately 8:15 a.m., Police Communications received a 911 call of shots fired. Witnesses reported hearing gunfire and then saw a body thrown from a vehicle at 1211 Jackson Street. The body of a black male was found on the sidewalk at this location with apparent gunshot wounds. The victim has been identified as 29yr old Karreem Pritchett of Dayton Street."," On April 30, 2016, at 8:02 a.m., District Four officers responded to 1619 California Avenue for a report of a person down in the park. Upon arrival, police officers and Fire Department personnel located a male suffering from gunshot wounds.  He was pronounced dead on the scene.  He has been identified as 18yr old Leron Lovett."," On July 1, 2018, 23yr old Nickeisha Holloman was reported missing from the Crossroads Center at 3009 Burnet Avenue.  On August 22, 2018, skeletal remains were found in the 1800 block of Mehmert Avenue in Mount Airy.  Those remains were later identified as Nickeisha Holloman and her death has been ruled a homicide."," On May 29, 2018, district three officers responded to 934 Chateau Avenue for reported shooting. Upon arrival, officers located a victim in the parking lot of the apartment complex. Fire personnel attempted life saving measures but the victim died on the scene.  The victim has been identified as Marcell Huffaker, 52 years of age."," On December 8, 2016 Boston went to a Family Dollar parking lot on Burlington Avenue to meet a person.  When he arrived subjects approached Boston shooting at Boston and wounding two others. Boston fled on foot but he was ultimately injured and forced into a waiting vehicle and kidnapped.  On December 9, 2016 at 9:24 pm, Boston’s body was found burned in the rear of a building on Central Avenue after a 911 call about a fire.   "," Anthony Leinberger, 80 years of age, was beaten in his car at 244 Oakmont St., San Jose, CA on 5/29/1995.  He entered his residence and then collapsed.  Leinberger later died at the hospital."," On February 27, 2016 at 4:58 am, District 3 officers responded to investigate a serious accident at 2307 Westwood Northern Boulevard. First responders located the crashed vehicle off the roadway and on fire.  The Fire Department extinguished the fire and discovered the single occupant of the vehicle was deceased.  The Traffic Unit responded to investigate the fatal accident.  The Hamilton County Coroner’s Office determined the death to be a homicide and notified the Homicide Unit for further investigation.  The victim has been identified as 21yr old Donte Whitehead.", Victim was visting several acquaintances that lived in the Dayton and Cincinnati area.  He had driven up from the state of Georgia the week prior to his death with a female acquaintance.  He was in the process of trying to establish business relationships dealing with strip tease shows with these acquaintances.  Victim was found deceased in his hotel room due to blunt force trauma of a severe nature about his body.  He was driving a silver Trans Am with a Florida registration of KLS 355," On January 5, 2009, the remains of a female between the age of 40 and 65 were located in a wooded area directly to the west of the Interstate 75 southbound entrance ramp. She was found wearing gray sweatpants (size XL), men's underwear (size M), a white bra, a sequined women's top. white/gray gym shoes with navy blue stripes, and the rings pictured. 
+ These remains were later identified as Deborah Morgan.  "," Nancy Theobald was last seen on 11-16-1977 by co-workers at Arby’s Restaurant located at 263 Calhoun Street, Cincinnati, Ohio (Clifton) where she was employed.  Nancy left at approximately 2330 hrs. and stated that she was going to walk home. Nancy never returned to her residence. Nancy lived at 2971 Deckebach Ave., Cincinnati, Ohio (Clifton) with her brother, Mike and sister, Mary Lou and was a student at the University of Cincinnati.  Nancy Theobald was found on 12-26-1977 at 6050 Beckett Rd. near a creek on the property. Her arms were bound and she had a rope around her neck and she was partially nude. "," On July 25, 2017 at 5:10pm Lian Cung Nung was traveling southbound onto Interstate 75 south ramp from 6th St in
+Downtown Cincinnati. He was driving his 2005 blue Toyota Camry KY/578JWF. His wife, Siang Hlei Par, was in the
+passenger seat and they were the only occupants of the vehicle. Mr. Nung was shot while in traffic. He was
+transported to local hospital and was pronounced deceased at 8:16pm on July 26, 2017. Homicide Detectives interviewed
+wife, Mrs. Par, shortly after the shooting. She and her husband are Bermese immigrants and she speaks only a little
+English. She was able to tell us that she did not hear any horns blowing or her husband making any sudden turns, leading
+us to believe this was not a ""road rage"" incident. Several witnesses at the scene heard gunshots or what they later
+determined to be gunshots but no one saw a shooter. Video from a public transportation bus ""Tank"" bus was recovered
+and this video contains audio as well as visual documentation of the the victim's vehicle. The video shows the lane of
+travel the victim was in and it documented the speed the bus the traveling, approximately 6MPH. The bus was about 5
+cars ahead of the victim and the video is from each side of the bus. The audio picks up 2 gunshots, first gunshot sounds
+different than the second in pitch. Both gunshots are consecutive of each other. Immediately after the shots are heard you
+can see the victim strike the vehicle in front of him then his vehicle drives off to the right, coming to rest at the guardrail.
+Victim's vehicle sustained driver's side window damage. Glass was shattered after his removal from the car by
+paramedics. No evidence of the second bullet was observed or recovered either from the victim, his car , or the surrounding area. A search of the area was unable to
+produce any shell casings or otherwise determine the origin of the shots. This area is congested with on and off ramps to
+various parts of Cincinnati and Northern Kentucky. At the time of this shooting the Brent Spence bridge that connects
+Ohio and Kentucky was under construction and there were heavy traffic back ups. We have consulted with two firearms
+examiners in the Hamilton County lab and all they had to examine were very little bullet fragments and copper jacketing
+fragments that were recovered from the victim and the victim's vehicle. They are unable to see any marking on the tiny
+fragments recovered. Several canvasses and examinations of the area have lead us to believe that the shot couldn't have
+come from any buildings in the area. The most likely scenario is the shot was fired from an adjacent ramp that leads to
+eastbound Fort Washington Way. Due to the height of the ramp and angle needed to make the shot and it could not have
+come from a sedan or a low riding vehicle."," On October 13, 1981, the deceased body of a female, later determined to be Anna Stewart, was found in a field near Queen Anne Place, Grove City, Ohio 43123.  Ms. Stewart was reported missing from Cincinnati, Ohio on October 6, 1981.  After an autopsy, the death was ruled a homicide."," On March 24, 1978 at approximately 10:00 p.m. Cheryl A. Thompson left her residence at 8312 Wooster Pike in Cincinnati, Ohio reportedly heading to Gatsby’s located on Madison Road in Cincinnati, Ohio. She was reported missing on March 25, 1978 at approximately 2:00 p.m. by her brother after family and friends were not able to locate her. On April 08, 1978 at approximately 9:40 a.m. the body of Cheryl A. Thompson was discovered by an Ohio Department of Natural Resources game protector laying face down on the bank of the Little Miami River in the 260 block of East Kemper Road in Loveland, Ohio. An autopsy performed by the Hamilton County Coroner determined Thompson’s death a homicide by means of strangulation and blunt force trauma to the head."," On January 5th, 2016 at approximately 1:50 PM, officers were dispatched to Leach Brothers Automotive for a male who had
+been shot in the back during a robbery.Upon arrival, officers found the victim (business owner, Larry ""Joe"" Leach), lying on the
+floor in the garage area, bleeding from a single gunshot wound. The victim was conscious and stated the assailant had a firearm
+and described the suspect as a male black wearing a red hoodie. The victim was transported by life squad to University Hospital
+where the victim ultimately succumbed to his injuries.
+An employee who was working under the hood of a truck in the garage area of the business stated he heard the victim come into the
+garage and yell ""Help me!"" He then heard a gunshot and found the victim on the ground. He said he never saw the suspect.
+Police K9s responded but lost the track in the rear of the business in the alley."," On March 17th, 2017, at 9:36 PM, North College Hill Police Department officers were dispatched to a report of shots fired in the area of the 6500 block of Simpson Avenue and also dispatched to a report of a vehicle crash two blocks away at 1827 Cordova Avenue.
+The crashed vehicle driver was located and found to have been shot. He was pronounced dead on the scene by emergency medical personnel. It was later discovered that the deceased lived in the 6500 block of Simpson Avenue (the location where the original shots fired call was reported).
+The victim has been identified as Tony Laron Walls, Male-Black, 29 years of age.  
+The investigation by the North College Hill Police Department is on-going.
+Anyone with information about this homicide is asked to call the North College Hill Police Department at (513) 521-7171 or CRIMESTOPPERS at (513) 352-3040.
+Callers may remain anonymous and may receive compensation for their information. "," In December 1978, Elizabeth Andes was a 23 year old, who had accepted a full time job with a company in Cincinnati, OH after graduating from college. Elizabeth spent the 24 hours leading up to her death preparing to move from her apartment in Oxford, OH to Cincinnati, OH. She had several acquaintances in Oxford, however, the majority of her friends had already graduated or were out of town for the holiday break.
+ 
+While in college, Elizabeth worked part time at carryout store and was last seen at that store 2 hours before her murder was discovered. Elizabeth’s body was discovered in the bedroom of her apartment around 9:30 PM on December 28, 1978. She had been strangled with pieces of clothing and had multiple stab wounds to her chest. She also suffered multiple bruises to her neck, chest, stomach and legs during the attack."," Gerald Bricca age 26, his wife Linda Bricca age 23, and their daughter Debbie Bricca age 4, were murdered on or around September 25th, 1966 in their suburban home in Cincinnati, OH.
+Gerald Bricca was last seen on Sunday, September 25th, 1966 at 10:00pm at his home on Greenway Avenue in Green Township.  Gerald returned home from work, and was seen by a neighbor taking his trash cans to the curb and then entering his home.  Gerald was scheduled to go to the airport the following morning to catch a flight to West Virginia with a  co-worker for a business trip.  Gerald did not make that flight on Monday, September 26th, 1966.  The co-worker called Gerald that morning to no avail.  
+Neighbors noticed that newspapers began piling up on the driveway, and the trash cans had not been taken in.  Also, the porch light was still on, the TV had been on for a couple days, and their 2 dogs had not been outside to play.  Gerald had not been to work since Sunday, September 25th.  
+On September 27th, 1966, concerned neighbors decided to check on the Bricca home, and opened the unlocked front door.  Once the door was opened, one neighbor who was a war veteran, immediately recognized the smell of dead bodies, and advised that nobody enter the home and to contact the sheriff’s department.  The door was shut, and the Hamilton County Sheriff’s Office responded to find the family of 3 dead.  
+Gerald and Linda Bricca were found in their bedroom, each having suffered numerous stab wounds to their chest, neck and face.  Gerald was stabbed 9 times, and Linda was stabbed 8 times.  Linda and Gerald were both bound at some point, but the material used, possibly tape, was removed from their bodies and was not located.  Gerald had a sock stuffed in his mouth with a small piece of medical tape.  Linda was found lying on top of Gerald.  Debbie Bricca was found in her bedroom, having suffered 4 stab wounds to her back, each stab going completely through her body.
+Over 400 interviews were conducted with anyone remotely connected to the Bricca family.
+"," Gerald Bricca age 26, his wife Linda Bricca age 23, and their daughter Debbie Bricca age 4, were murdered on or around September 25th, 1966 in their suburban home in Cincinnati, OH.
+Gerald Bricca was last seen on Sunday, September 25th, 1966 at 10:00pm at his home on Greenway Avenue in Green Township.  Gerald returned home from work, and was seen by a neighbor taking his trash cans to the curb and then entering his home.  Gerald was scheduled to go to the airport the following morning to catch a flight to West Virginia with a  co-worker for a business trip.  Gerald did not make that flight on Monday, September 26th, 1966.  The co-worker called Gerald that morning to no avail.  
+Neighbors noticed that newspapers began piling up on the driveway, and the trash cans had not been taken in.  Also, the porch light was still on, the TV had been on for a couple days, and their 2 dogs had not been outside to play.  Gerald had not been to work since Sunday, September 25th.  
+On September 27th, 1966, concerned neighbors decided to check on the Bricca home, and opened the unlocked front door.  Once the door was opened, one neighbor who was a war veteran, immediately recognized the smell of dead bodies, and advised that nobody enter the home and to contact the sheriff’s department.  The door was shut, and the Hamilton County Sheriff’s Office responded to find the family of 3 dead.  
+Gerald and Linda Bricca were found in their bedroom, each having suffered numerous stab wounds to their chest, neck and face.  Gerald was stabbed 9 times, and Linda was stabbed 8 times.  Linda and Gerald were both bound at some point, but the material used, possibly tape, was removed from their bodies and was not located.  Gerald had a sock stuffed in his mouth with a small piece of medical tape.  Linda was found lying on top of Gerald.  Debbie Bricca was found in her bedroom, having suffered 4 stab wounds to her back, each stab going completely through her body.
+Over 400 interviews were conducted with anyone remotely connected to the Bricca family.
+"," Gerald Bricca age 26, his wife Linda Bricca age 23, and their daughter Debbie Bricca age 4, were murdered on or around September 25th, 1966 in their suburban home in Cincinnati, OH.
+Gerald Bricca was last seen on Sunday, September 25th, 1966 at 10:00pm at his home on Greenway Avenue in Green Township.  Gerald returned home from work, and was seen by a neighbor taking his trash cans to the curb and then entering his home.  Gerald was scheduled to go to the airport the following morning to catch a flight to West Virginia with a  co-worker for a business trip.  Gerald did not make that flight on Monday, September 26th, 1966.  The co-worker called Gerald that morning to no avail.  
+Neighbors noticed that newspapers began piling up on the driveway, and the trash cans had not been taken in.  Also, the porch light was still on, the TV had been on for a couple days, and their 2 dogs had not been outside to play.  Gerald had not been to work since Sunday, September 25th.  
+On September 27th, 1966, concerned neighbors decided to check on the Bricca home, and opened the unlocked front door.  Once the door was opened, one neighbor who was a war veteran, immediately recognized the smell of dead bodies, and advised that nobody enter the home and to contact the sheriff’s department.  The door was shut, and the Hamilton County Sheriff’s Office responded to find the family of 3 dead.  
+Gerald and Linda Bricca were found in their bedroom, each having suffered numerous stab wounds to their chest, neck and face.  Gerald was stabbed 9 times, and Linda was stabbed 8 times.  Linda and Gerald were both bound at some point, but the material used, possibly tape, was removed from their bodies and was not located.  Gerald had a sock stuffed in his mouth with a small piece of medical tape.  Linda was found lying on top of Gerald.  Debbie Bricca was found in her bedroom, having suffered 4 stab wounds to her back, each stab going completely through her body.
+Over 400 interviews were conducted with anyone remotely connected to the Bricca family.
+"," Patrol units were dispatched for a possible Burglary/Robbery in progress at 2538 Wenning Road.  While en route, officers were updated that the address of 2538 Wenning was obtained by GPS tracking.  When officers arrived at 0224 hours, within two minutes of dispatch, officers heard muffled gunshots and at this same time, officers were given another address of 2522 Wenning Road and that two people had been shot inside by an unknown suspect that had kicked in the door, shot them and then fled.  Officers made entry into the house and located a female victim, Heidi Bake, lying on her back in the living room area outside the master bedroom with a gunshot wound to the head and a second victim, Antwan Little, attempting to walk around limping from a gunshot wound to the leg.  Investigators learned that Ms. Bake and Mr. Little were in bed in the master bedroom when three unknown male black suspects kicked in the side kitchen door, entered their bedroom and pulled them out of bed, violently attacking them as the suspects demanded money.  Mr. Little was shot in the bedroom and Ms. Bake was shot outside the bedroom in the living room/hallway area.  Ms. Bake was pronounced deceased the following day.  Mr. Little survived. "," On 02/15/2005 at approximately 6:40pm, officers were called to the area of S/B I-75 at the 7.0 MP in the city of St. Bernard, OH to investigate an auto accident.  When officers arrive on scene, they discovered that the victim, Andrew Douglas Johnson was suffering from at least one gunshot wound.  Johnson was transported to University Hospital by St. Bernard Paramedics where he succumbed to his injuries and was pronounced dead.  At the time of the incident, Johnson was driving S/B on I-75 in his white 2002 Ford Taurus SES.  Johnson was last seen in the United Dairy Farmers store located at 2151 Losantville Ave., Cincinnati, OH 45237."
+Age,22,19,25,18,45,29,37,24,33,31,26,56,73,18,22,19,63,17,20,23,59,18,76,28,29,23,59,18,33,59,24,23,23,67,30,32,39,45,73,59,61,53,20,19,22,63,24,30,18,30,53,48,38,26,60,57,67,22,63,72,22,38,25,42,49,27,61,14,30,52,25,28,22,30,21,19,40,31,18,22,36,18,32,24,33,54,24,40,18,20,24,74,23,41,26,42,28,18,16,21,38,23,25,29,23,46,22,17,23,30,41,41,21,20,18,18,20,32,22,22,46,27,25,28,24,91,0.166666,,,,,,21,26,49,24,28,22,22,38,33,21,27,30,35,24,22,27,30,25,60,56,32,24,37,41,37,46,40,,25,25,27,19,26,27,28,36,24,,20,33,30,23,53,17,29,34,67,26,24,18,32,30,90,30,47,23,27,31,30,79,49,26,56,69,18,46,23,29,56,29,24,39,32,23,34,32,63,70,5,34,45,24,86,21,60,83,1,33,75,54,19,23,16,29,19,31,27,20,22,27,16,5,24,51,26,84,67,67,26,15,48,37,47,53,43,18,16,77,17,18,71,71,43,48,75,56,21,39,27,55,34,70,53,48,28,33,31,19,48,27,19,56,29,75,24,49,46,28,20,27,38,41,25,41,23,69,51,42,32,29,26,26,19,47,19,19,56,31,16,30,26,56,22,26,15,24,28,43,17,39,20,25,30,23,36,33,21,50,27,44,52,19,33,27,26,26,43,27,49,31,33,68,22,22,25,23,16,28,48,56,47,57,21,29,26,23,29,38,26,23,33,37,43,20,22,37,42,18,19,39,42,21,33,27,29,74,31,70,30,24,56,29,25,25,36,44,27,26,22,75,48,36,40,17,0.0833333,44,33,29,24,24,25,32,,25,23,,,,51,40,16,39,31,14,19,21,39,,50,80,78,21,25,40,41,22,20,45,30,22,35,41,,19,26,28,30,34,24,60,23,26,48,31,27,26,30,27,27,41,27,27,50,42,28,55,16,,29,34,29,36,57,30,29,18,23,52,,80,21,,,,,,,,29,23,26,4,23,42,49
+Hair color,,,,,,,,, Black, Black, Black,,,, Black,,, Black, Black,,, Black,,, Black, Black,, Black,,,, Black,,,, Black,,,,,,,, Black, Black,, Black, Black, Black,,,,,,,,,,,, Black,,, Black,,,, Black,,, Black,,, Black,,,,, Black, Black,, Black,, Black,,, Black, Black,,,,,,, Black,, Black, Black,,,,,,,, Black,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Black,,,,,,,,,,,,,,,,,,,,, Black, Black,, Black,, Black, Black, Black, Black,,,, Bald, Black,, Black, Black,, Black, Black,, Black,,, Black,, Black, Black, Black,, Black,, Black, Black,, Black,, Black, Black,,, Black, Black,, Black, Black, Black, Black, Black, Black, Black, Black,,,,,,,,, Black,,,, Black,,,,,,, Black,, Black, Black, Black, Black, Black,, Black,, Black,,,, Black,,,,,, Black, Black, Black,,,, Black,,,,,,,,, Black, Black,,,, Black,, Black, Black,,, Black,, Black,,,,,,, Black,,,,,, Salt and pepper, Salt and pepper,,, Black,,,,,,,, Black,, Black,,,,,,, Black, Black, Black,,,,,,,,,, Black,, Black, Black,, Black,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Black,,,,,, Black,,,,,,,,,,,,,,,,,,,,,,, Brown, Black, Black,, Black, Black, Blonde, Blonde, Black,,,, Black, Black,, Black, Black, Black,,,,,,,,,,,, Black,,,,, Black, Black, Black, Black, Black, Black,, Black, Black, Black, Black, Black, Black, Black, Brown, Brown, Brown, Black, Black, Black, Black, Brown, Black, Black,, Black, Black, Brown, Black, Black, Black, Black, Black, Brown, Bald,,, Black, Brown, Brown, Brown, Black,,, Red, Black, Brown, Black,,, Blonde, Brown
+Eye color,,,,,,,,, Brown, Brown, Brown,,,, Brown,,, Brown, Brown,,, Brown,,, Brown, Brown,, Brown,,,, Brown,,,, Brown,,,,,,,, Brown, Brown,, Brown, Brown, Brown,,,,,,,,,,,, Brown,,, Brown,,,, Brown,,, Brown,,, Brown,,,,, Brown, Brown,, Brown,, Brown,,, Brown, Brown,,,,,,, Brown,, Brown, Brown,,,,,,,, Brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Brown,,,,,,,,,,,,,,,,,,,,, Brown, Brown,, Brown,, Brown, Brown, Brown, Brown,,,, Brown, Brown,, Brown, Brown,, Brown, Brown,, Brown,,, Brown,, Brown, Brown, Brown,, Brown,, Brown, Brown,, Brown,, Brown, Brown,,, Brown, Brown,, Brown, Brown, Brown, Brown, Brown, Brown, Brown, Brown,,,,,,,,, Brown,,,, Brown,,,,,,, Brown,, Brown, Brown, Brown, Brown, Brown,, Brown,, Brown,,,, Brown,,,,,, Brown, Brown, Brown,,,, Brown,,,,,,,,, Brown, Brown,,,, Brown,, Brown, Brown,,, Brown,, Brown,,,,,,, Brown,,,,,, Brown, Brown,,, Brown,,,,,,,, Brown,, Brown,,,,,,, Brown, Brown, Brown,,,,,,,,,, Brown,, Brown, Brown,, Brown,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Brown,,,,,, Brown,,,,,,,,,,,,,,,,,,,,,,, Brown, Brown, Brown,, Brown, Brown, Blue, Blue, Brown,,,, Brown, Brown,, Brown, Brown, Brown,,,,,,,,,,,, Brown,,,,, Brown, Brown, Brown, Brown, Brown, Brown,, Brown, Brown, Brown, Brown, Brown, Brown, Brown, Blue, Green, Brown, Brown, Brown, Brown, Brown, Brown, Brown, Brown,, Brown, Brown, Blue, Brown, Brown, Brown, Brown, Brown, Brown, Brown,,, Brown,, Blue, Blue, Brown, Brown,, Brown, Brown, Brown,,,, Blue, Brown
+Nickname or alias,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Khalil Sami,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Antwan, Wes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Kareem Hassan,,,,,,,,,,,,,, Monk, Biggie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Terrence O. Carlisle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Carlos Robinson,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, Chaz,,,,,,,,,,,,,,,, JT,,,,,,,,,,,,,,,,,,,,,,,,,,, Joe,,,, Debbie,,,
+Date of birth,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, 4/17/1963,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, 3/17/1993, 10/5/1988, 11/2/1980,, 7/19/1982, 2/19/1980, 3/1/1969, 4/11/1955,,,,, 8/21/1974, 7/26/1984,, 4/17/1992, 7/24/1988, 5/3/1974,,,,,,,,,,,,,,,,, 1/8/2002, 2/17/1981, 3/5/1985, 6/13/1986, 8/6/1979, 1/8/1989,, 1/25/1989, 5/24/1985, 5/11/1969,, 10/13/1988, 11/17/1990, 1/9/1985, 4/12/1985, 11/9/1988, 11/17/1975, 4/6/1990, 7/3/1989, 12/9/1966, 7/27/1974,, 12/15/1956, 5/9/1996,, 4/11/1982, 9/1/1978, 12/7/1984, 2/12/1981, 8/3/1960, 5/29/1987, 10/10/1972,, 2/18/1995, 9/18/1965,,, 5/20/1994, 12/26/1939, 7/2/1956, 1/6/1959, 12/14/1988, 10/17/1948,, 6/18/1951, 11/2/1987, 12/16/1955, 1/25/1938, 6/9/1962, 1/4/1943, 8/2/1968, 5/17/1956
+Height,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," 5'08""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," 6'02"""," 6'03"""," 5'07""",," 5' 07"""," 5' 08"""," 5'08"""," 6'01""",,,,," 6'03"""," 6' 02""",," 5' 07"""," 5' 10"""," 6' 05""",,,,,,,,,,,,,,,,," 5'08"""," 5' 09"""," 6'00"""," 5'11"""," 5'10"""," 5'10""",," 5' 06"""," 5'10"""," 5'08""",," 5'10"""," 6'00"""," 5'11"""," 5'09"""," 5'11"""," 5'09"""," 5'09"""," 5'11"""," 5'10"""," 5'04""",," 5'07"""," 5'09""",," 5'10"""," 5' 07"""," 6'02"""," 5'10"""," 5'10"""," 6'03"""," 5' 06""",," 5' 03"""," 5' 10""",,," 6'05"""," 5'8"""," 5'05"""," 5'01"""," 5'05"""," 5'11""",," 5'11"""," 5'07"""," 5'03"""," 5'10"""," 3'4"""," 5'07"""," 5'11"""," 6'02"""
+Weight,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,220,200,205,,150, 160lbs,250,180,,,,, 240lbs,210,,190,190,240,,,,,,,,,,,,,,,,,240,180, 160lbs,146,260,155,,145,230,200,,195,230,175,180,145,215,175,165,180,160,,140,135,,210,200,180,220,375,265,150,,143,175,,,280,180, 165lbs,115,125, 160lbs,, 285lbs, 150lbs,115, 170 lbs, 30 lbs, 135 lbs,165,184
